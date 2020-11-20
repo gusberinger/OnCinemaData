@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+import csv
 
 class Episode:
     def __init__(self, url):
@@ -14,12 +15,12 @@ class Episode:
         self.movies = [Movie(soup) for soup in movies]
 
 
-    def csv(self):
-        master = ""
+    def write_csv(self, file_name):
         for movie in self.movies:
-            master += f"{self.season},{self.episode},{self.airdate}," + movie.csv() + "\n"
-        # get rid of the last \n
-        return master
+            row = [self.season, self.episode, self.airdate] + movie.csv()
+            with open(file_name, "a") as f:
+                writer = csv.writer(f)
+                writer.writerow(row)
 
             
 class Movie:
@@ -55,29 +56,28 @@ class Movie:
             db['popcorn'] = "NA"
 
         if review.find("div", class_ = "oscar-badge"):
-            db['oscar'] = 1
+            db['oscar'] = "True"
         else:
-            db['oscar'] = 0
+            db['oscar'] = "False"
 
         return db
 
     def csv(self):
-        master = f"{self.title},{self.year},"
+        master = [self.title, self.year]
         try:
-            master += f"{self.reviews['Gregg']['popcorn']},{self.reviews['Gregg']['oscar']},"
+            master += [self.reviews['Gregg']['popcorn'], self.reviews['Gregg']['oscar']]
         except KeyError:
-            master += "NA,NA,"
+            master += ["NA", "NA"]
 
         try:
-            master += f"{self.reviews['Tim']['popcorn']},{self.reviews['Tim']['oscar']},"
+            master += [self.reviews['Tim']['popcorn'], self.reviews['Tim']['oscar']]
         except KeyError:
-            master += "NA,NA,"
+            master += ["NA", "NA"]
 
-        # get rid of last coma
-        return master[:-1]
+        return master
     
 
-master_csv = "season,episode,airdate,title,year,gregg_popcorn,tim_popcorn,gregg_oscar,tim_oscar"
+master_csv = "season,episode,airdate,title,year,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
 with open("data.csv", "w") as f:
     f.write(master_csv + "\n")
 
@@ -85,8 +85,7 @@ for season in range(1, 12):
     for episode_index in range(1, 11):
         episode = Episode(f"https://oncinematimeline.com/season-{season}/episode-{episode_index}")
         print(f"{episode.season} - {episode.episode}")
-        with open("data.csv", "a") as f:
-            f.write(episode.csv())
+        episode.write_csv("data.csv")
 
 
 
