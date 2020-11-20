@@ -15,8 +15,11 @@ class Episode:
 
 
     def csv(self):
+        master = ""
         for movie in self.movies:
-            print(f"{self.season},{self.episode},{self.airdate}," + movie.csv())
+            master += f"{self.season},{self.episode},{self.airdate}," + movie.csv() + "\n"
+        # get rid of the last \n
+        return master
 
             
 class Movie:
@@ -52,9 +55,9 @@ class Movie:
             db['popcorn'] = "NA"
 
         if review.find("div", class_ = "oscar-badge"):
-            db['oscar'] = True
+            db['oscar'] = 1
         else:
-            db['oscar'] = False
+            db['oscar'] = 0
 
         return db
 
@@ -75,10 +78,15 @@ class Movie:
     
 
 master_csv = "season,episode,airdate,title,year,gregg_popcorn,tim_popcorn,gregg_oscar,tim_oscar"
+with open("data.csv", "w") as f:
+    f.write(master_csv + "\n")
+
 for season in range(1, 12):
     for episode_index in range(1, 11):
         episode = Episode(f"https://oncinematimeline.com/season-{season}/episode-{episode_index}")
-        episode.csv()
+        print(f"{episode.season} - {episode.episode}")
+        with open("data.csv", "a") as f:
+            f.write(episode.csv())
 
 
 
