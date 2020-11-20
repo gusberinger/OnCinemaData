@@ -14,8 +14,9 @@ class Episode:
         self.movies = [Movie(soup) for soup in movies]
 
 
-    def episode_csv(self):
-            return f"{self.airdate},{self.season},{self.episode}"
+    def csv(self):
+        for movie in self.movies:
+            print(f"{self.season},{self.episode},{self.airdate}," + movie.csv())
 
             
 class Movie:
@@ -44,8 +45,12 @@ class Movie:
     def build_review_db(self, review):
         """Build a database of information for each review"""
         db = {}
-        review_text = review.find("p", class_ = "rating-summary").text
-        db['popcorn'] = re.match(r"\d+", review_text).group()
+        try:
+            review_text = review.find("p", class_ = "rating-summary").text
+            db['popcorn'] = re.match(r"\d+", review_text).group()
+        except AttributeError:
+            db['popcorn'] = "NA"
+
         if review.find("div", class_ = "oscar-badge"):
             db['oscar'] = True
         else:
@@ -53,10 +58,27 @@ class Movie:
 
         return db
 
-    def movie_csv(self):
-        return f"{self.title}"
+    def csv(self):
+        master = f"{self.title},{self.year},"
+        try:
+            master += f"{self.reviews['Gregg']['popcorn']},{self.reviews['Gregg']['oscar']},"
+        except KeyError:
+            master += "NA,NA,"
 
-start = Episode("https://oncinematimeline.com/season-1/episode-1")
-print(start.movies[0].reviews)
-print(start.movies[1].reviews)
+        try:
+            master += f"{self.reviews['Tim']['popcorn']},{self.reviews['Tim']['oscar']},"
+        except KeyError:
+            master += "NA,NA,"
+
+        # get rid of last coma
+        return master[:-1]
+    
+
+master_csv = "season,episode,airdate,title,year,gregg_popcorn,tim_popcorn,gregg_oscar,tim_oscar"
+for season in range(1, 12):
+    for episode_index in range(1, 11):
+        episode = Episode(f"https://oncinematimeline.com/season-{season}/episode-{episode_index}")
+        episode.csv()
+
+
 
