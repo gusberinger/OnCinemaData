@@ -22,7 +22,6 @@ class Episode:
                 writer = csv.writer(f)
                 writer.writerow(row)
 
-            
 class Movie:
     def __init__(self, soup):
         self.soup = soup
@@ -31,18 +30,14 @@ class Movie:
         self.reviews = {}
         self.reviews['Gregg'] = {}
         self.reviews['Tim'] = {}
-        reviews_soup = soup.find("div", class_= "row reviews").find_all("div", class_ = "review-info")
         # go up two levels to see oscar information
+        reviews_soup = soup.find("div", class_= "row reviews").find_all("div", class_ = "review-info")
         reviews_soup = [x.parent.parent for x in reviews_soup]
-        
         # simplify author
         for review in reviews_soup:
             author = review.find("p", class_ = "title").text
-            if author == "Gregg's Review":
-                author = "Gregg"
-            elif author == "Tim's Review":
-                author = "Tim"
-                
+            author = re.match(r"(\w+)'s Review", author).group(1)
+            print(author)
             self.reviews[author] = self.build_review_db(review)
 
 
@@ -75,7 +70,6 @@ class Movie:
             master += ["NA", "NA"]
 
         return master
-    
 
 master_csv = "season,episode,airdate,title,year,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
 with open("data.csv", "w") as f:
