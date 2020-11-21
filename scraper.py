@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import csv
-from tqdm import tqdm
 
 class Episode:
     def __init__(self, url):
@@ -17,7 +16,7 @@ class Episode:
 
 
     def write_csv(self, file_name):
-        with open(file_name, "a") as f:
+        with open(file_name, "a", newline="") as f:
             writer = csv.writer(f)
             for movie in self.movies:
                 row = [self.season, self.episode, self.airdate] + movie.csv()
@@ -74,8 +73,9 @@ if __name__ == "__main__":
     with open("data.csv", "w") as f:
         master_csv = "season,episode,airdate,title,year,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
 
-    for season in tqdm(range(1, 12)):
+    for season in range(1, 12):
         for episode_index in range(1, 11):
+            print(f"{season}-{episode_index}")
             episode = Episode(f"https://oncinematimeline.com/season-{season}/episode-{episode_index}")
             episode.write_csv("data.csv")
 
