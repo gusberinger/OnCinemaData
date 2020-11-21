@@ -30,10 +30,9 @@ class Movie:
         self.reviews = {}
         self.reviews['Gregg'] = {}
         self.reviews['Tim'] = {}
-        # go up two levels to see oscar information
         reviews_soup = soup.find("div", class_= "row reviews").find_all("div", class_ = "review-info")
+        # go up two levels to see oscar information
         reviews_soup = [x.parent.parent for x in reviews_soup]
-        # simplify author
         for review in reviews_soup:
             author = review.find("p", class_ = "title").text
             author = re.match(r"(\w+)'s Review", author).group(1)
