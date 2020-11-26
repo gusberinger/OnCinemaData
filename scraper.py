@@ -34,6 +34,8 @@ class Episode:
         self.hosts = [item.text for item in hosts]
         movies = self.soup.find("div", "episode-movies").find_all("div", recursive = False)
         self.movies = [Movie(soup) for soup in movies]
+        for movie in self.movies:
+            movie.get_imdb()
 
 
     def write_csv(self, file_name):
@@ -49,8 +51,6 @@ class Movie:
         self.title = self.soup.find("p", class_ = "movie-title").text
         self.year = re.match(r"\d+", self.soup.find(text="Year: ").next).group()
         self.reviews = {}
-        self.reviews['Gregg'] = {}
-        self.reviews['Tim'] = {}
         reviews_soup = soup.find("div", class_= "row reviews").find_all("div", class_ = "review-info")
         # go up two levels to get oscar information
         reviews_soup = [x.parent.parent for x in reviews_soup]
@@ -60,6 +60,8 @@ class Movie:
             author = re.match(r"(\w+)'s Review", author).group(1)
             self.reviews[author] = self.build_review_db(review)
 
+
+    def get_imdb(self):
         # not all data on website matches imdb
         if self.title in imdb_na.keys():
             self.imdb_id = imdb_na[self.title]
