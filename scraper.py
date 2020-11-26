@@ -14,7 +14,8 @@ imdb_na = {"Escape from Planet Earth": "0765446",
            "The Moon and the Sun": "2328678",
            "Star Trek Beyond": "2660888",
            "Fast & Furious 8": "4630562",
-           "Acrimony": "6063050"}
+           "Acrimony": "6063050",
+           "Insurgent": "2908446"}
 
 winners = []
 with open("oscar.csv", "r") as f:
@@ -59,6 +60,7 @@ class Movie:
             self.reviews[author] = self.build_review_db(review)
 
 
+        print(self.title)
         # not all data on website matches imdb
         if self.title in imdb_na.keys():
             self.imdb_id = imdb_na[self.title]
@@ -66,23 +68,17 @@ class Movie:
         else:
             imdb_movie = ia.search_movie(f"{self.title} ({self.year})")[0]
 
-        ia.update(imdb_movie, 'main')
-        self.imdb_rating = imdb_movie['rating']
         self.imdb_id = imdb_movie.getID()
-
-
-        try:
-            self.runtime = imdb_movie['runtime'][0]
-        except Exception:
-            self.runtime = "NA"
-        try:
-            self.imdb_votes = imdb_movie['votes']
-        except Exception:
-            self.imdb_votes = "NA"
-
-
-
         self.oscar_winner = self.imdb_id in winners
+        ia.update(imdb_movie, 'main')
+        try:
+            self.imdb_rating = imdb_movie['rating']
+            self.runtime = imdb_movie['runtime'][0]
+            self.imdb_votes = imdb_movie['votes']
+        except KeyError:
+            self.imdb_rating = "NA"
+            self.runtime = "NA"
+            self.imdb_votes = "NA"
 
     def build_review_db(self, review):
         """Build a database of information for each review"""
