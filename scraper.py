@@ -7,14 +7,14 @@ from imdb import IMDb
 
 ia = IMDb()
 # fill in data from oncinematimeline that does not match imdb
-imdb_na = {'Escape from Planet Earth': {'id': "0765446", 'rating': 5.9},
-           'Scary Movie 5': {'id': "0795461", 'rating': 3.5},
-           'Sin City: A Dame to Kill For': {'id': "0458481", 'rating': 6.5},
-           'No Escape (aka The Coup)': {'id': 1781922, 'rating': 6.8},
-           'The Moon and the Sun': {'id': 2328678, 'rating': 'NA'},
-           'Star Trek Beyond': {'id': 2660888, 'rating': 7.1},
-           'Fast & Furious 8': {'id': 4630562, 'rating': 6.7},
-           'Acrimony': {'id': 6063050, 'rating': 5.8}}
+imdb_na = {"Escape from Planet Earth": "0765446",
+           "Scary Movie 5": "0795461",
+           "Sin City: A Dame to Kill For": "0458481",
+           "No Escape (aka The Coup)": "1781922",
+           "The Moon and the Sun": "2328678",
+           "Star Trek Beyond": "2660888",
+           "Fast & Furious 8": "4630562",
+           "Acrimony": "6063050"}
 
 winners = []
 with open("oscar.csv", "r") as f:
@@ -59,25 +59,26 @@ class Movie:
             self.reviews[author] = self.build_review_db(review)
 
 
-        try:
+        # not all data on website matches imdb
+        if self.title in imdb_na.keys():
+            self.imdb_id = imdb_na[self.title]
+            imdb_movie = ia.get_movie(self.imdb_id)
+        else:
             imdb_movie = ia.search_movie(f"{self.title} ({self.year})")[0]
-            ia.update(imdb_movie, 'main')
-            self.imdb_rating = imdb_movie['rating']
-            self.imdb_id = imdb_movie.getID()
 
-        # sometimes imdbpy needs to try twice to get the rating
-        except KeyError:
-            print("KeyError: " + self.title)
-            try:
-                ia.update(imdb_movie, 'main')
-                self.imdb_id = imdb_movie.getID()
-                self.imdb_rating = imdb_na[self.title]['rating']
-            except KeyError:
-                self.imdb_rating = "NA"
-                self.imdb_id = "NA"
+        ia.update(imdb_movie, 'main')
+        self.imdb_rating = imdb_movie['rating']
+        self.imdb_id = imdb_movie.getID()
+
+
+        try:
+            self.runtime = imdb_movie['runtime'][0]
         except Exception:
-            self.imdb_rating = imdb_na[self.title]['rating']
-            self.imdb_id = imdb_na[self.title]['id']
+            self.runtime = "NA"
+        try:
+            self.imdb_votes = imdb_movie['votes']
+        except Exception:
+            self.imdb_votes = "NA"
 
 
 
@@ -100,7 +101,7 @@ class Movie:
         return db
 
     def csv(self):
-        master = [self.title, self.year, self.imdb_id, self.imdb_rating, self.oscar_winner]
+        master = [self.title, self.year, self.imdb_id, self.imdb_rating, self.runtime, self.imdb_votes, self.oscar_winner]
         try:
             master += [self.reviews['Gregg']['popcorn'], self.reviews['Gregg']['oscar']]
         except KeyError:
@@ -115,7 +116,7 @@ class Movie:
 
 if __name__ == "__main__":
     with open("data.csv", "w") as f:
-        master_csv = "season,episode,airdate,title,year,imdb_id,imdb_rating,oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
+        master_csv = "season,episode,airdate,title,year,imdb_id,imdb_rating,runtime,imdb_votes,oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
         f.write(master_csv + '\n')
 
     for season in range(1, 12):
