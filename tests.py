@@ -1,13 +1,14 @@
 import pandas as pd
 
 data = pd.read_csv("data.csv")
+print(data.columns)
 
 reddawn = data[data["title"] == "Red Dawn"]
 
 assert list(reddawn.gregg_popcorn)[0] == 4
 assert list(reddawn.tim_popcorn)[0] == 5
 assert list(reddawn.oscar_winner)[0] == False
-assert list(reddawn.hosts)[0] == "Gregg Turkington,Tim Heidecker"
+assert list(reddawn.hosts)[0] == "Gregg Turkington|Tim Heidecker"
 
 anna = data[data["title"] == "Anna Karenina"]
 
