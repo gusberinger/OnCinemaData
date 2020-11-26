@@ -6,6 +6,7 @@ from imdb import IMDb
 
 
 ia = IMDb()
+
 # fill in data from oncinematimeline that does not match imdb
 imdb_na = {"Escape from Planet Earth": "0765446",
            "Scary Movie 5": "0795461",
@@ -29,9 +30,11 @@ class Episode:
         self.html = requests.get(url).text
         self.season, self.episode = re.search(r"season-(\d+)/episode-(\d+)", url).groups()
         self.soup = BeautifulSoup(self.html, "html.parser")
+        self.youtube = self.soup.find("a", text="Youtube").get("href")
         self.airdate = self.soup.find("h5", text = "Original Air Date").parent.p.text
         hosts = self.soup.find("h5", text="Hosts / Guests").parent.find_all("div")
         self.hosts = [item.text for item in hosts]
+        self.hosts = ",".join(self.hosts)
         movies = self.soup.find("div", "episode-movies").find_all("div", recursive = False)
         self.movies = [Movie(soup) for soup in movies]
         for movie in self.movies:
@@ -42,7 +45,7 @@ class Episode:
         with open(file_name, "a", newline="") as f:
             writer = csv.writer(f)
             for movie in self.movies:
-                row = [self.season, self.episode, self.airdate] + movie.csv()
+                row = [self.season, self.episode, self.airdate, self.youtube, self.hosts] + movie.csv()
                 writer.writerow(row)
 
 class Movie:
@@ -96,6 +99,8 @@ class Movie:
 
     def csv(self):
         master = [self.title, self.year, self.imdb_id, self.imdb_rating, self.runtime, self.imdb_votes, self.oscar_winner]
+
+        # not all movies have reviews from Gregg and Tim
         try:
             master += [self.reviews['Gregg']['popcorn'], self.reviews['Gregg']['oscar']]
         except KeyError:
@@ -110,7 +115,7 @@ class Movie:
 
 if __name__ == "__main__":
     with open("data.csv", "w") as f:
-        master_csv = "season,episode,airdate,title,year,imdb_id,imdb_rating,runtime,imdb_votes,oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
+        master_csv = "season,episode,airdate,youtube_link,hosts,title,year,imdb_id,imdb_rating,runtime,imdb_votes,oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
         f.write(master_csv + '\n')
 
     for season in range(1, 12):
