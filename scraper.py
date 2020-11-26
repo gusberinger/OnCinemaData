@@ -52,15 +52,14 @@ class Movie:
         self.reviews['Gregg'] = {}
         self.reviews['Tim'] = {}
         reviews_soup = soup.find("div", class_= "row reviews").find_all("div", class_ = "review-info")
-        # go up two levels to see oscar information
+        # go up two levels to get oscar information
         reviews_soup = [x.parent.parent for x in reviews_soup]
+
         for review in reviews_soup:
             author = review.find("p", class_ = "title").text
             author = re.match(r"(\w+)'s Review", author).group(1)
             self.reviews[author] = self.build_review_db(review)
 
-
-        print(self.title)
         # not all data on website matches imdb
         if self.title in imdb_na.keys():
             self.imdb_id = imdb_na[self.title]
@@ -83,17 +82,14 @@ class Movie:
     def build_review_db(self, review):
         """Build a database of information for each review"""
         db = {}
+        # the rating does not necessarily exist
         try:
             review_text = review.find("p", class_ = "rating-summary").text
             db['popcorn'] = re.match(r"\d+", review_text).group()
         except AttributeError:
             db['popcorn'] = "NA"
 
-        if review.find("div", class_ = "oscar-badge"):
-            db['oscar'] = "True"
-        else:
-            db['oscar'] = "False"
-
+        db['oscar'] = bool(review.find("div", class_ = "oscar-badge"))
         return db
 
     def csv(self):
