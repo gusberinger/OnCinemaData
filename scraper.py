@@ -3,7 +3,10 @@ from bs4 import BeautifulSoup
 import re
 import csv
 from imdb import IMDb
+import json
 
+with open("api.txt", "r") as f:
+    api_key = f.read()
 
 ia = IMDb()
 
@@ -30,22 +33,31 @@ class Episode:
         self.html = requests.get(url).text
         self.season, self.episode = re.search(r"season-(\d+)/episode-(\d+)", url).groups()
         self.soup = BeautifulSoup(self.html, "html.parser")
-        self.youtube = self.soup.find("a", text="Youtube").get("href")
+        self.youtube_id = self.soup.find("a", text="Youtube").get("href")[32:]
         self.airdate = self.soup.find("h5", text = "Original Air Date").parent.p.text
         hosts = self.soup.find("h5", text="Hosts / Guests").parent.find_all("div")
         self.hosts = [item.text for item in hosts]
-        self.hosts = ",".join(self.hosts)
+        self.hosts = "|".join(self.hosts)
         movies = self.soup.find("div", "episode-movies").find_all("div", recursive = False)
         self.movies = [Movie(soup) for soup in movies]
         for movie in self.movies:
             movie.get_imdb()
 
+    def get_youtube(self):
+        page = requests.get(f"https://www.googleapis.com/youtube/v3/videos?part=statistics&id={self.youtube_id}&key={api_key}")
+        page_json = json.loads(page.content)
+        statistics = page_json['items'][0]['statistics']
+        print(statistics)
+        self.view_count = statistics['viewCount']
+        self.like_count = statistics['likeCount']
+        self.dislike_count = statistics['likeCount']
 
     def write_csv(self, file_name):
         with open(file_name, "a", newline="") as f:
             writer = csv.writer(f)
             for movie in self.movies:
-                row = [self.season, self.episode, self.airdate, self.youtube, self.hosts] + movie.csv()
+                row = [self.season, self.episode, self.airdate, self.hosts,
+                       self.youtube_id, self.view_count, self.like_count, self.dislike_count] + movie.csv()
                 writer.writerow(row)
 
 class Movie:
@@ -115,13 +127,14 @@ class Movie:
 
 if __name__ == "__main__":
     with open("data.csv", "w") as f:
-        master_csv = "season,episode,airdate,youtube_link,hosts,title,year,imdb_id,imdb_rating,runtime,imdb_votes,oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
+        master_csv = "season,episode,airdate,hosts,youtube_id, view_count,like_count,dislike_count,title,year,imdb_id,imdb_rating,runtime,imdb_votes,oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
         f.write(master_csv + '\n')
 
     for season in range(1, 12):
         for episode_index in range(1, 11):
             print(f"{season}-{episode_index}")
             episode = Episode(f"https://oncinematimeline.com/season-{season}/episode-{episode_index}")
+            episode.get_youtube()
             episode.write_csv("data.csv")
 
 
