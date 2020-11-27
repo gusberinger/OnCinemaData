@@ -4,6 +4,7 @@ import re
 import csv
 from imdb import IMDb
 import json
+from difflib import SequenceMatcher
 
 with open("api.txt", "r") as f:
     api_key = f.read()
@@ -13,6 +14,7 @@ ia = IMDb()
 # fill in data from oncinematimeline that does not match imdb
 imdb_na = {"Escape from Planet Earth": "0765446",
            "Scary Movie 5": "0795461",
+           "Star Trek: Beyond": "2660888",
            "Sin City: A Dame to Kill For": "0458481",
            "No Escape (aka The Coup)": "1781922",
            "The Moon and the Sun": "2328678",
@@ -47,13 +49,12 @@ class Episode:
         page = requests.get(f"https://www.googleapis.com/youtube/v3/videos?part=statistics&id={self.youtube_id}&key={api_key}")
         page_json = json.loads(page.content)
         statistics = page_json['items'][0]['statistics']
-        print(statistics)
         self.view_count = statistics['viewCount']
         self.like_count = statistics['likeCount']
-        self.dislike_count = statistics['likeCount']
+        self.dislike_count = statistics['dislikeCount']
 
     def write_csv(self, file_name):
-        with open(file_name, "a", newline="") as f:
+        with open(file_name, "a", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
             for movie in self.movies:
                 row = [self.season, self.episode, self.airdate, self.hosts,
@@ -63,8 +64,10 @@ class Episode:
 class Movie:
     def __init__(self, soup):
         self.soup = soup
-        self.title = self.soup.find("p", class_ = "movie-title").text
+        self.title = soup.find("p", class_ = "movie-title").text
         self.year = re.match(r"\d+", self.soup.find(text="Year: ").next).group()
+        self.description = soup.find("p", class_ = "plot").text
+        
         self.reviews = {}
         reviews_soup = soup.find("div", class_= "row reviews").find_all("div", class_ = "review-info")
         # go up two levels to get oscar information
@@ -86,7 +89,7 @@ class Movie:
 
         self.imdb_id = imdb_movie.getID()
         self.oscar_winner = self.imdb_id in winners
-        ia.update(imdb_movie, 'main')
+        ia.update(imdb_movie)
         try:
             self.imdb_rating = imdb_movie['rating']
             self.runtime = imdb_movie['runtime'][0]
@@ -95,6 +98,21 @@ class Movie:
             self.imdb_rating = "NA"
             self.runtime = "NA"
             self.imdb_votes = "NA"
+
+        # make sure that the movies line up
+        try:
+            plot = imdb_movie['plot'][0]
+            if "::" in plot:
+                plot = re.match(r"(.*)::", plot).group(1)
+            assert(SequenceMatcher(None, plot, self.description).ratio() > .90)
+        except AssertionError:
+            print("-" * 10)
+            print(plot)
+            print(self.description)
+            print(self.title)
+            print(self.year)
+            print(f"http://imdb.com/title/tt{self.imdb_id}")
+
 
     def build_review_db(self, review):
         """Build a database of information for each review"""
