@@ -38,8 +38,7 @@ class Episode:
         self.youtube_id = self.soup.find("a", text="Youtube").get("href")[32:]
         self.airdate = self.soup.find("h5", text = "Original Air Date").parent.p.text
         hosts = self.soup.find("h5", text="Hosts / Guests").parent.find_all("div")
-        self.hosts = [item.text for item in hosts]
-        self.hosts = "|".join(self.hosts)
+        self.hosts = "|".join([item.text for item in hosts])
         movies = self.soup.find("div", "episode-movies").find_all("div", recursive = False)
         self.movies = [Movie(soup) for soup in movies]
         for movie in self.movies:
@@ -94,10 +93,12 @@ class Movie:
             self.imdb_rating = imdb_movie['rating']
             self.runtime = imdb_movie['runtime'][0]
             self.imdb_votes = imdb_movie['votes']
+            self.imdb_cast = "|".join([x['name'] for x in imdb_movie['cast']][:5])
         except KeyError:
             self.imdb_rating = "NA"
             self.runtime = "NA"
             self.imdb_votes = "NA"
+            self.imdb_cast = "NA"
 
         # make sure that the movies line up
         try:
@@ -128,7 +129,7 @@ class Movie:
         return db
 
     def csv(self):
-        master = [self.title, self.year, self.imdb_id, self.imdb_rating, self.runtime, self.imdb_votes, self.oscar_winner]
+        master = [self.title, self.year, self.imdb_id, self.imdb_rating, self.runtime, self.imdb_cast, self.imdb_votes, self.oscar_winner]
 
         # not all movies have reviews from Gregg and Tim
         try:
@@ -145,7 +146,7 @@ class Movie:
 
 if __name__ == "__main__":
     with open("data.csv", "w") as f:
-        master_csv = "season,episode,airdate,hosts,youtube_id, view_count,like_count,dislike_count,title,year,imdb_id,imdb_rating,runtime,imdb_votes,oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
+        master_csv = "season,episode,airdate,hosts,youtube_id, view_count,like_count,dislike_count,title,year,imdb_id,imdb_rating,runtime,imdb_cast,imdb_votes,oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
         f.write(master_csv + '\n')
 
     for season in range(1, 12):

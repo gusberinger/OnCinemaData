@@ -1,215 +1,215 @@
-season,episode,airdate,hosts,youtube_id, view_count,like_count,dislike_count,title,year,imdb_id,imdb_rating,runtime,imdb_votes,oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar
-1,1,11/2/2012,Gregg Turkington|Tim Heidecker,qFHLfmoLchI,551314,2907,38,Flight,2012,1907668,7.3,138,322676,False,5,True,5,True
-1,1,11/2/2012,Gregg Turkington|Tim Heidecker,qFHLfmoLchI,551314,2907,38,The Man with the Iron Fists,2012,1258972,5.4,95,60187,False,5,False,4,False
-1,2,11/8/2012,Gregg Turkington|Tim Heidecker,SQZJktp-etk,206517,1586,23,Skyfall,2012,1074638,7.7,143,625383,True,5,False,5,False
-1,2,11/8/2012,Gregg Turkington|Tim Heidecker,SQZJktp-etk,206517,1586,23,Lincoln,2012,0443272,7.3,150,242505,True,4,False,6,False
-1,3,11/16/2012,Gregg Turkington|Tim Heidecker,nfOMBioJDJg,212360,1427,27,Anna Karenina,2012,1781769,6.6,129,90829,True,5,True,5,True
-1,3,11/16/2012,Gregg Turkington|Tim Heidecker,nfOMBioJDJg,212360,1427,27,The Twilight Saga: Breaking Dawn - Part 2,2012,1673434,5.5,115,229418,False,4,False,4,False
-1,4,11/21/2012,Gregg Turkington|Tim Heidecker,QYVJLsbciS8,172712,1265,15,Red Dawn,2012,1234719,5.4,93,73002,False,4,False,5,False
-1,4,11/21/2012,Gregg Turkington|Tim Heidecker,QYVJLsbciS8,172712,1265,15,Life of Pi,2012,0454876,7.9,127,575224,True,5,False,4,True
-1,5,11/29/2012,Gregg Turkington|Tim Heidecker,WzFILC5bI_c,179360,1558,19,Universal Soldier: Day of Reckoning,2012,1659343,5.0,114,19166,False,5,False,NA,NA
-1,5,11/29/2012,Gregg Turkington|Tim Heidecker,WzFILC5bI_c,179360,1558,19,The Frozen Ground,2013,2005374,6.4,105,57500,False,4,False,4,False
-1,6,12/6/2012,Gregg Turkington|Tim Heidecker,HMKm0CYEXDU,152812,1036,13,Playing for Keeps,2012,1540128,5.7,105,28546,False,4,False,4,False
-1,6,12/6/2012,Gregg Turkington|Tim Heidecker,HMKm0CYEXDU,152812,1036,13,Hyde Park on Hudson,2012,1477855,5.8,94,11209,False,5,True,5,True
-1,7,12/13/2012,Gregg Turkington|Tim Heidecker,Okikb3fpN4w,171891,1202,18,Les Miserables,2012,1707386,7.6,158,305951,True,4,False,5,False
-1,7,12/13/2012,Gregg Turkington|Tim Heidecker,Okikb3fpN4w,171891,1202,18,The Hobbit: An Unexpected Journey,2012,0903624,7.8,169,750850,False,5,True,6,True
-1,8,12/21/2012,Gregg Turkington|Tim Heidecker,qjqfZhyGSrA,192490,1664,15,"Monsters, Inc.",2001,0198781,8.0,92,805147,False,5,False,3,False
-1,8,12/21/2012,Gregg Turkington|Tim Heidecker,qjqfZhyGSrA,192490,1664,15,Zero Dark Thirty,2012,1790885,7.4,157,269161,True,4,False,3,True
-1,9,12/27/2012,Gregg Turkington|Tim Heidecker,vvoqgPay8bM,166086,1364,17,Jack Reacher,2012,0790724,7.0,130,304891,False,5,False,6,False
-1,9,12/27/2012,Gregg Turkington|Tim Heidecker,vvoqgPay8bM,166086,1364,17,Cirque du Soleil: Worlds Away,2012,1792647,6.8,91,7839,False,5,False,4,False
-1,10,1/10/2013,Gregg Turkington|Tim Heidecker,u75FIgboNHU,182995,1574,18,Django Unchained,2012,1853728,8.4,165,1337266,True,5,False,4,False
-1,10,1/10/2013,Gregg Turkington|Tim Heidecker,u75FIgboNHU,182995,1574,18,Parental Guidance,2012,1047540,6.0,105,24729,False,NA,False,6,False
-2,1,2/7/2013,Gregg Turkington|Tim Heidecker,LPw-R-WWdOc,176597,1315,13,Identity Thief,2013,2024432,5.7,111,123590,False,5,False,4,False
-2,1,2/7/2013,Gregg Turkington|Tim Heidecker,LPw-R-WWdOc,176597,1315,13,Side Effects,2013,2053463,7.1,106,178915,False,5,False,6,False
-2,2,2/14/2013,Gregg Turkington|Tim Heidecker,1M2yXVn2GGA,189742,2039,34,Escape from Planet Earth,2013,0765446,5.9,89,24357,False,NA,False,NA,False
-2,2,2/14/2013,Gregg Turkington|Tim Heidecker,1M2yXVn2GGA,189742,2039,34,A Good Day to Die Hard,2013,1606378,5.3,98,196746,False,5,False,5,False
-2,3,2/21/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,MMTsSMttjdI,168233,1533,24,Snitch,2013,0882977,6.4,112,82518,False,5,False,4,False
-2,3,2/21/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,MMTsSMttjdI,168233,1533,24,Dark Skies,2013,2387433,6.3,97,70505,False,5,False,3,False
-2,4,2/28/2013,Gregg Turkington|Tim Heidecker,LjVTxxFNeQY,148654,1156,17,21 & Over,2013,1711425,5.8,93,71648,False,5,False,5,False
-2,4,2/28/2013,Gregg Turkington|Tim Heidecker,LjVTxxFNeQY,148654,1156,17,Jack the Giant Slayer,2013,1351685,6.2,114,130759,False,5,False,6,False
-2,5,3/7/2013,Gregg Turkington|Tim Heidecker,JhcGWg7aV0w,156506,1341,14,Oz the Great and Powerful,2013,1623205,6.3,130,198156,False,5,False,4,False
-2,5,3/7/2013,Gregg Turkington|Tim Heidecker,JhcGWg7aV0w,156506,1341,14,Dead Man Down,2013,2101341,6.5,118,63591,False,5,False,5,True
-2,6,3/14/2013,Gregg Turkington|Tim Heidecker,fah28oNAhT8,173043,1505,21,Carrie,2013,1939659,5.9,100,132406,False,5,False,4,False
-2,6,3/14/2013,Gregg Turkington|Tim Heidecker,fah28oNAhT8,173043,1505,21,The Incredible Burt Wonderstone,2013,0790628,5.9,100,70448,False,5,True,5,False
-2,7,3/21/2013,Gregg Turkington|Tim Heidecker,XxJ7YQS8sos,163700,1436,7,The Croods,2013,0481499,7.2,98,188751,False,5,False,5,False
-2,8,3/28/2013,Ayaka Ohwaki|Gregg Turkington|Jimmy McNichol|Tim Heidecker,jFmz7t07i7w,146718,1078,18,G.I. Joe: Retaliation,2013,1583421,5.8,110,172197,False,NA,NA,5,False
-2,8,3/28/2013,Ayaka Ohwaki|Gregg Turkington|Jimmy McNichol|Tim Heidecker,jFmz7t07i7w,146718,1078,18,Temptation: Confessions of a Marriage Counselor,2013,2070862,5.0,111,11383,False,NA,NA,4,False
-2,9,4/4/2013,Gregg Turkington|Tim Heidecker,ri0n5EMEApY,165646,1397,25,The Company You Keep,2012,1381404,6.4,125,31425,False,5,False,4,False
-2,9,4/4/2013,Gregg Turkington|Tim Heidecker,ri0n5EMEApY,165646,1397,25,Jurassic Park,1993,0107290,8.1,127,856923,False,NA,False,NA,False
-2,10,4/11/2013,Gregg Turkington|Tim Heidecker,R_5-N9t26V8,179297,1479,11,Oblivion,2013,1483013,7.0,124,481762,False,5,False,NA,False
-2,10,4/11/2013,Gregg Turkington|Tim Heidecker,R_5-N9t26V8,179297,1479,11,Scary Movie 5,2013,0795461,3.5,88,65273,False,5,False,4,False
-3,1,7/3/2013,Gregg Turkington|Tim Heidecker,Sx19DKoUdUg,228887,1970,46,Despicable Me 2,2013,1690953,7.3,98,366405,False,5,True,4,False
-3,1,7/3/2013,Gregg Turkington|Tim Heidecker,Sx19DKoUdUg,228887,1970,46,The Lone Ranger,2013,1210819,6.4,150,219698,False,4,False,5,True
-3,2,7/10/2013,Gregg Turkington|Tim Heidecker,-3fzhadeZgg,191338,1634,117,Pacific Rim,2013,1663662,6.9,131,462659,False,5,False,4,False
-3,2,7/10/2013,Gregg Turkington|Tim Heidecker,-3fzhadeZgg,191338,1634,117,Grown Ups 2,2013,2191701,5.4,101,139195,False,5,False,5,False
-3,3,7/17/2013,Gregg Turkington|Tim Heidecker,_1g-Q7Nim6A,170236,1605,41,Turbo,2013,1860353,6.4,96,82888,False,5,False,5,False
-3,3,7/17/2013,Gregg Turkington|Tim Heidecker,_1g-Q7Nim6A,170236,1605,41,RED 2,2013,1821694,6.6,116,158589,False,5,False,5,False
-3,4,7/24/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,IcP5kn2kZcQ,181518,1506,37,Blue Jasmine,2013,2334873,7.3,98,190491,True,NA,False,6,True
-3,4,7/24/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,IcP5kn2kZcQ,181518,1506,37,The Wolverine,2013,1430132,6.7,126,426046,False,5,False,5,False
-3,5,7/31/2013,Gregg Turkington|Tim Heidecker,wE7iRtuJYK8,161173,1400,31,The Smurfs 2,2013,2017020,5.3,105,37559,False,5,True,5,True
-3,5,7/31/2013,Gregg Turkington|Tim Heidecker,wE7iRtuJYK8,161173,1400,31,300: Rise of an Empire,2014,1253863,6.2,102,278683,False,5,False,4,False
-3,6,8/7/2013,Gregg Turkington|Tim Heidecker,LIlXGcRH2Rs,136144,1240,47,Percy Jackson: Sea of Monsters,2013,1854564,5.8,106,109409,False,5,False,5,False
-3,6,8/7/2013,Gregg Turkington|Tim Heidecker,LIlXGcRH2Rs,136144,1240,47,Elysium,2013,1535108,6.6,109,416544,False,NA,False,5,False
-3,7,8/14/2013,Gregg Turkington|Tim Heidecker,ScpA45z6BKQ,180130,1925,56,Kick-Ass 2,2013,1650554,6.5,103,253019,False,5,False,5,False
-3,8,8/21/2013,Ayaka Ohwaki|John Aprea|Tim Heidecker,Yr_q3Gxvex0,158522,1200,55,The World's End,2013,1213663,7.0,109,257401,False,NA,NA,5,False
-3,8,8/21/2013,Ayaka Ohwaki|John Aprea|Tim Heidecker,Yr_q3Gxvex0,158522,1200,55,The Colony,2013,1160996,5.3,95,42804,False,NA,NA,5,False
-3,9,8/28/2013,Ayaka Ohwaki|Gregg Turkington|Tim Heidecker,sPIniCEtY9U,195537,2299,42,Getaway,2013,2167202,4.4,90,23107,False,2,False,5,False
-3,9,8/28/2013,Ayaka Ohwaki|Gregg Turkington|Tim Heidecker,sPIniCEtY9U,195537,2299,42,One Direction: This Is Us,2013,2515086,4.2,92,23429,False,0,False,5,False
-3,10,9/4/2013,Gregg Turkington|Tim Heidecker,eYjQjvirrYc,176899,1480,36,Riddick,2013,1411250,6.4,119,153186,False,5,False,4,False
-4,1,1/8/2014,Gregg Turkington|Tim Heidecker,FcY1PUpHXso,233395,1874,46,Her,2013,1798709,8.0,126,532400,True,5,False,5,False
-4,1,1/8/2014,Gregg Turkington|Tim Heidecker,FcY1PUpHXso,233395,1874,46,Lone Survivor,2013,1091191,7.5,121,263879,False,5,False,5,False
-4,2,1/15/2014,Gregg Turkington|Tim Heidecker,K_0ljrFYE5E,188394,2190,37,Ride Along,2014,1408253,6.2,99,102214,False,5,False,5,False
-4,2,1/15/2014,Gregg Turkington|Tim Heidecker,K_0ljrFYE5E,188394,2190,37,The Nut Job,2014,1821658,5.7,85,26383,False,NA,False,NA,False
-4,3,1/22/2014,Gregg Turkington|Luther Sanchez|Tim Heidecker,vUsRviInqn4,167366,1502,36,Gimme Shelter,2013,1657510,6.5,101,8165,False,5,False,4,False
-4,3,1/22/2014,Gregg Turkington|Luther Sanchez|Tim Heidecker,vUsRviInqn4,167366,1502,36,"I, Frankenstein",2014,1418377,5.1,92,77916,False,5,False,5,False
-4,4,1/29/2014,Gregg Turkington|Luther Sanchez|Tim Heidecker,fSazKxKzn2E,222332,2120,38,That Awkward Moment,2014,1800246,6.1,94,97163,False,5,False,5,False
-4,4,1/29/2014,Gregg Turkington|Luther Sanchez|Tim Heidecker,fSazKxKzn2E,222332,2120,38,Labor Day,2013,1967545,6.9,111,42416,False,5,False,5,False
-4,5,2/5/2014,Gregg Turkington|Jimmy McNichol|Tim Heidecker|Joe Estevez,g8OlSE96I1s,296124,2211,78,The Lego Movie,2014,1490017,7.7,100,321694,False,5,False,3,False
-4,5,2/5/2014,Gregg Turkington|Jimmy McNichol|Tim Heidecker|Joe Estevez,g8OlSE96I1s,296124,2211,78,RoboCop,2014,1234721,6.1,117,214952,False,5,False,NA,False
-4,6,2/12/2014,Gregg Turkington|Larry Turman,zL2wK-HyeJQ,186632,1887,198,Endless Love,2014,2318092,6.3,104,40068,False,5,False,NA,NA
-4,6,2/12/2014,Gregg Turkington|Larry Turman,zL2wK-HyeJQ,186632,1887,198,Girl on a Bicycle,2013,1686042,6.2,101,2108,False,5,False,NA,NA
-4,7,2/19/2014,Gregg Turkington|Tim Heidecker,obTi-asfsK4,187030,1575,34,Pompeii,2014,1921064,5.5,105,105772,False,5,False,5,False
-4,8,2/26/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,GRUe-F0g2fc,180893,1719,15,Project Almanac,2015,2436386,6.4,106,75511,False,5,False,5,False
-4,8,2/26/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,GRUe-F0g2fc,180893,1719,15,Non-Stop,2014,2024469,6.9,106,248316,False,5,False,6,False
-4,9,3/5/2014,Gregg Turkington|Tim Heidecker,pZOBnKZ-X9U,151786,1463,22,Need for Speed,2014,2369135,6.4,132,161921,False,5,False,5,False
-4,9,3/5/2014,Gregg Turkington|Tim Heidecker,pZOBnKZ-X9U,151786,1463,22,Walk of Shame,2014,2463288,6.0,95,50772,False,5,False,NA,False
-4,10,3/12/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,1mz3aHHFxpc,153079,1655,20,Muppets Most Wanted,2014,2281587,6.4,107,31360,False,5,False,5,False
-5,1,7/2/2014,Gregg Turkington|Tim Heidecker,9rKNLhPo9bg,203127,1645,35,Tammy,2014,2103254,4.9,97,47618,False,5,False,6,False
-5,1,7/2/2014,Gregg Turkington|Tim Heidecker,9rKNLhPo9bg,203127,1645,35,Deliver Us from Evil,2014,2377322,6.2,118,70396,False,5,False,5,False
-5,2,7/9/2014,Gregg Turkington|Tim Heidecker,VrL8tyJLeJk,182566,1900,43,Dawn of the Planet of the Apes,2014,2103281,7.6,130,409182,False,5,False,5,True
-5,2,7/9/2014,Gregg Turkington|Tim Heidecker,VrL8tyJLeJk,182566,1900,43,And So It Goes,2014,2465146,5.8,94,12708,False,5,True,5,False
-5,3,7/16/2014,Gregg Turkington|Tim Heidecker,N0d3hMwjsxg,154025,1422,26,Jupiter Ascending,2015,1617661,5.3,127,177641,False,5,False,3,False
-5,3,7/16/2014,Gregg Turkington|Tim Heidecker,N0d3hMwjsxg,154025,1422,26,Planes: Fire & Rescue,2014,2980706,6.0,83,16422,False,5,False,5,False
-5,4,7/23/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,BQx_2bQniZI,167897,1529,31,Wish I Was Here,2014,2870708,6.7,106,36449,False,5,True,5,True
-5,4,7/23/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,BQx_2bQniZI,167897,1529,31,Hercules,2014,1267297,6.0,98,144985,False,5,True,5,False
-5,4,7/23/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,BQx_2bQniZI,167897,1529,31,Magic in the Moonlight,2014,2870756,6.5,97,63529,False,5,False,5,False
-5,5,7/30/2014,Gregg Turkington|Tim Heidecker,k_MbreQjXJ4,166282,1544,44,Get on Up,2014,2473602,6.9,139,21923,False,5,True,5,False
-5,5,7/30/2014,Gregg Turkington|Tim Heidecker,k_MbreQjXJ4,166282,1544,44,Guardians of the Galaxy,2014,2015381,8.0,121,1032976,False,5,False,5,False
-5,6,8/6/2014,Gregg Turkington|Tim Heidecker,sU5PVNZ1GSo,172803,2464,60,Into the Storm,2014,2106361,5.8,89,64600,False,NA,NA,NA,NA
-5,6,8/6/2014,Gregg Turkington|Tim Heidecker,sU5PVNZ1GSo,172803,2464,60,Teenage Mutant Ninja Turtles,2014,1291150,5.8,101,199794,False,5,False,5,False
-5,7,8/13/2014,Gregg Turkington|Tim Heidecker,Q6_ckZw65dI,161764,1412,30,The Expendables 3,2014,2333784,6.1,126,167751,False,5,False,5,True
-5,7,8/13/2014,Gregg Turkington|Tim Heidecker,Q6_ckZw65dI,161764,1412,30,Let's Be Cops,2014,1924435,6.4,104,126626,False,5,False,5,False
-5,8,8/20/2014,Gregg Turkington|Tim Heidecker,P93K-73MshM,168134,1525,32,Sin City: A Dame to Kill For,2014,0458481,6.5,102,151376,False,5,False,5,False
-5,9,8/27/2014,"Ayaka Ohwaki|Gregg Turkington|Tim Heidecker|Tom Cruise Heidecker, Jr",hGzuqylxR8w,130769,1204,21,The November Man,2014,2402157,6.3,108,62888,False,5,False,4,False
-5,9,8/27/2014,"Ayaka Ohwaki|Gregg Turkington|Tim Heidecker|Tom Cruise Heidecker, Jr",hGzuqylxR8w,130769,1204,21,Jessabelle,2014,2300975,5.4,90,22580,False,5,False,5,False
-5,10,9/3/2014,Gregg Turkington|Tim Heidecker,AAVDo3uP07E,148488,1630,19,Dark Places,2015,2402101,6.2,113,41740,False,NA,False,NA,False
-5,10,9/3/2014,Gregg Turkington|Tim Heidecker,AAVDo3uP07E,148488,1630,19,The Green Inferno,2013,2403021,5.3,100,38435,False,5,False,NA,False
-6,1,2/4/2015,Gregg Turkington|Mark Proksch,l4TPZad5MVI,201114,2553,141,Jupiter Ascending,2015,1617661,5.3,127,177641,False,5,False,NA,NA
-6,1,2/4/2015,Gregg Turkington|Mark Proksch,l4TPZad5MVI,201114,2553,141,The SpongeBob Movie: Sponge Out of Water,2015,2279373,6.0,92,48687,False,5,False,NA,NA
-6,2,2/11/2015,Gregg Turkington|Mark Proksch|Tim Heidecker,nbyamRX_pZo,271856,2945,62,Kingsman: The Secret Service,2014,2802144,7.7,129,584916,False,5,False,5,False
-6,2,2/11/2015,Gregg Turkington|Mark Proksch|Tim Heidecker,nbyamRX_pZo,271856,2945,62,Fifty Shades of Grey,2015,2322441,4.1,125,295529,False,5,False,5,False
-6,3,2/18/2015,Gregg Turkington|Tim Heidecker,6KhwiJNCUmc,172664,1591,26,"McFarland, USA",2015,2097298,7.4,129,35065,False,5,False,6,True
-6,3,2/18/2015,Gregg Turkington|Tim Heidecker,6KhwiJNCUmc,172664,1591,26,Hot Tub Time Machine 2,2015,2637294,5.1,93,36665,False,5,False,5,False
-6,4,2/25/2015,Gregg Turkington|Tim Heidecker,ZGy4YwfTPBY,141163,1362,14,The Lazarus Effect,2015,2918436,5.2,83,40749,False,5,False,5,False
-6,4,2/25/2015,Gregg Turkington|Tim Heidecker,ZGy4YwfTPBY,141163,1362,14,Focus,2015,2381941,6.6,105,215418,False,5,True,5,False
-6,5,3/4/2015,Gregg Turkington|Tim Heidecker|Joe Estevez,kFBLNgsVhdo,199859,1686,36,Chappie,2015,1823672,6.8,120,227968,False,5,False,5,False
-6,5,3/4/2015,Gregg Turkington|Tim Heidecker|Joe Estevez,kFBLNgsVhdo,199859,1686,36,No Escape (aka The Coup),2015,1781922,6.8,103,77498,False,5,False,5,False
-6,5,3/4/2015,Gregg Turkington|Tim Heidecker|Joe Estevez,kFBLNgsVhdo,199859,1686,36,The Second Best Exotic Marigold Hotel,2015,2555736,6.6,122,31057,False,5,False,5,False
-6,6,3/11/2015,Gregg Turkington|Tim Heidecker,G07P3ZQwkSU,115502,942,14,Cinderella,2015,1661199,6.9,105,158426,False,NA,False,5,True
-6,6,3/11/2015,Gregg Turkington|Tim Heidecker,G07P3ZQwkSU,115502,942,14,In the Heart of the Sea,2015,1390411,6.9,122,121430,False,5,False,5,False
-6,7,3/18/2015,"Ayaka Ohwaki|Gregg Turkington|Tim Heidecker|Tom Cruise Heidecker, Jr",Ikb2QabxcDA,112167,1111,33,Insurgent,2015,2908446,6.2,119,215539,False,5,False,5,False
-6,7,3/18/2015,"Ayaka Ohwaki|Gregg Turkington|Tim Heidecker|Tom Cruise Heidecker, Jr",Ikb2QabxcDA,112167,1111,33,The Gunman,2015,2515034,5.8,115,38637,False,5,False,5,True
-6,8,3/25/2015,Gregg Turkington|Tim Heidecker,mYVQo_jH3Po,128357,1469,17,Get Hard,2015,2561572,6.0,100,121640,False,5,False,5,False
-6,8,3/25/2015,Gregg Turkington|Tim Heidecker,mYVQo_jH3Po,128357,1469,17,Home,2015,2224026,6.6,94,91076,False,5,False,4,False
-6,9,4/1/2015,Gregg Turkington|Tim Heidecker,486OCi4uINY,157807,1632,30,Furious 7,2015,2820852,7.1,137,356358,False,5,False,7,False
-6,9,4/1/2015,Gregg Turkington|Tim Heidecker,486OCi4uINY,157807,1632,30,Woman in Gold,2015,2404425,7.3,109,53317,False,5,False,5,False
-6,10,4/8/2015,Ayaka Ohwaki|Tim Heidecker,JDUbtFKcf2M,124625,1165,44,The Moon and the Sun,2016,2328678,NA,NA,NA,False,NA,NA,5,False
-6,10,4/8/2015,Ayaka Ohwaki|Tim Heidecker,JDUbtFKcf2M,124625,1165,44,Ex Machina,2014,0470752,7.7,108,468303,False,NA,NA,5,False
-7,1,9/9/2015,Gregg Turkington|Tim Heidecker,fgoanR8BAMA,259091,3606,73,Fantastic Four,2015,1502712,4.3,100,150841,False,NA,False,6,False
-7,1,9/9/2015,Gregg Turkington|Tim Heidecker,fgoanR8BAMA,259091,3606,73,Ant-Man,2015,0478970,7.3,117,561573,False,NA,False,1,False
-7,2,9/16/2015,Gregg Turkington|Tim Heidecker,JszcIgBV_MI,169978,1465,33,Maze Runner: The Scorch Trials,2015,4046784,6.3,131,218861,False,5,False,5,False
-7,2,9/16/2015,Gregg Turkington|Tim Heidecker,JszcIgBV_MI,169978,1465,33,Black Mass,2015,1355683,6.9,123,166468,False,5,False,5,False
-7,3,9/23/2015,Gregg Turkington|Tim Heidecker,Hvu9d4OAsXg,157518,1805,33,The Intern,2015,2361509,7.1,121,216747,False,NA,NA,NA,NA
-7,3,9/23/2015,Gregg Turkington|Tim Heidecker,Hvu9d4OAsXg,157518,1805,33,Hotel Transylvania 2,2015,2510894,6.7,89,105916,False,NA,NA,NA,NA
-7,4,9/30/2015,Gregg Turkington|Luther Sanchez|Tim Heidecker|Joe Estevez,uim2th2Hm78,193057,1949,47,The Martian,2015,3659388,8.0,144,750186,False,NA,NA,NA,NA
-7,4,9/30/2015,Gregg Turkington|Luther Sanchez|Tim Heidecker|Joe Estevez,uim2th2Hm78,193057,1949,47,Sicario,2015,3397884,7.6,121,366015,False,NA,NA,NA,NA
-7,5,10/7/2015,Gregg Turkington|Tim Heidecker,gaQbGCg7_Mw,199199,1885,56,Pan,2015,3332064,5.7,111,59838,False,5,False,5,False
-7,5,10/7/2015,Gregg Turkington|Tim Heidecker,gaQbGCg7_Mw,199199,1885,56,Steve Jobs,2015,2080374,7.2,122,152538,False,5,False,5,False
-7,6,10/14/2015,Gregg Turkington|Tim Heidecker,EbrnM36GspY,181513,1987,51,Goosebumps,2015,1051904,6.3,103,80020,False,5,False,5,False
-7,6,10/14/2015,Gregg Turkington|Tim Heidecker,EbrnM36GspY,181513,1987,51,Bridge of Spies,2015,3682448,7.6,142,284276,True,5,False,5,False
-7,7,10/21/2015,Gregg Turkington|Tim Heidecker,cuORvss1ovo,169021,1979,62,Paranormal Activity: The Ghost Dimension,2015,2473510,4.6,88,24769,False,NA,False,NA,False
-7,7,10/21/2015,Gregg Turkington|Tim Heidecker,cuORvss1ovo,169021,1979,62,Jem and the Holograms,2015,3614530,4.2,118,7291,False,5,False,5,False
-7,8,10/28/2015,Axiom Serradimigni|Tim Heidecker,7-2jpmg-fSw,93021,932,799,Autobahn,2016,2126235,5.7,99,14812,False,NA,NA,NA,False
-7,8,10/28/2015,Axiom Serradimigni|Tim Heidecker,7-2jpmg-fSw,93021,932,799,Scouts Guide to the Zombie Apocalypse,2015,1727776,6.3,93,44799,False,NA,NA,5,False
-7,9,11/5/2015,Gregg Turkington,rYhc3na7j0k,140051,1965,57,The Peanuts Movie,2015,2452042,7.1,88,41890,False,5,False,5,False
-7,9,11/5/2015,Gregg Turkington,rYhc3na7j0k,140051,1965,57,Spectre,2015,2379713,6.8,148,380467,True,5,True,5,False
-7,10,11/12/2015,Axiom Serradimigni|Gregg Turkington|Luther Sanchez|Tim Heidecker,GFpbLvUwF4g,178467,2286,34,By the Sea,2015,3707106,5.3,122,18461,False,5,False,NA,False
-7,10,11/12/2015,Axiom Serradimigni|Gregg Turkington|Luther Sanchez|Tim Heidecker,GFpbLvUwF4g,178467,2286,34,Rings,2017,0498381,4.5,102,37484,False,NA,False,NA,False
-8,1,7/27/2016,Gregg Turkington|Tim Heidecker,RpMjjx-m-BM,290767,3024,92,Star Trek: Beyond,2016,2660888,7.1,122,225661,False,5,False,6,False
-8,1,7/27/2016,Gregg Turkington|Tim Heidecker,RpMjjx-m-BM,290767,3024,92,Hillary's America: The Secret History of the Democratic Party,2016,5646136,5.3,106,6856,False,5,False,6,True
-8,2,8/3/2016,Gregg Turkington|Luther Sanchez|Tim Heidecker,i2YyYQfZetk,261987,2437,56,Jason Bourne,2016,4196776,6.6,123,206145,False,5,False,5,False
-8,2,8/3/2016,Gregg Turkington|Luther Sanchez|Tim Heidecker,i2YyYQfZetk,261987,2437,56,Café Society,2016,4513674,6.6,96,70177,False,5,True,5,True
-8,3,8/10/2016,Gregg Turkington|Tim Heidecker,5FQu_8qQBN4,430505,4594,123,Nine Lives,2016,4383594,5.3,87,20715,False,5,False,5,False
-8,3,8/10/2016,Gregg Turkington|Tim Heidecker,5FQu_8qQBN4,430505,4594,123,Suicide Squad,2016,1386697,6.0,123,593327,True,5,False,5,False
-8,4,8/17/2016,Gregg Turkington|Tim Heidecker,UqqYpUmtgLg,268699,2757,59,Sausage Party,2016,1700841,6.1,89,173920,False,NA,False,5,False
-8,4,8/17/2016,Gregg Turkington|Tim Heidecker,UqqYpUmtgLg,268699,2757,59,Pete's Dragon,2016,2788732,6.7,102,53508,False,5,False,5,False
-8,5,8/24/2016,Axiom Serradimigni|Gregg Turkington|Mark Proksch|Tim Heidecker,NMl3xpNbTjA,225415,2065,53,Ben-Hur,2016,2638144,5.7,123,41173,False,5,True,5,False
-8,5,8/24/2016,Axiom Serradimigni|Gregg Turkington|Mark Proksch|Tim Heidecker,NMl3xpNbTjA,225415,2065,53,Kubo and the Two Strings,2016,4302938,7.8,101,116591,False,5,False,NA,False
-8,6,8/31/2016,Gregg Turkington|Tim Heidecker,IQtNboS3Eh8,178123,2111,41,Hands of Stone,2016,1781827,6.6,111,14845,False,5,True,5,False
-8,6,8/31/2016,Gregg Turkington|Tim Heidecker,IQtNboS3Eh8,178123,2111,41,Mechanic: Resurrection,2016,3522806,5.7,98,75376,False,5,False,5,False
-8,7,9/7/2016,Gregg Turkington|Mark Proksch,Qb3kMeOxCAQ,156655,1829,31,The Light Between Oceans,2016,2547584,7.2,133,51312,False,5,False,NA,NA
-8,7,9/7/2016,Gregg Turkington|Mark Proksch,Qb3kMeOxCAQ,156655,1829,31,Solace,2015,1291570,6.4,101,55333,False,5,False,NA,NA
-8,8,9/14/2016,Axiom Serradimigni|Ayaka Ohwaki|Gregg Turkington|John Aprea|Mark Proksch|Mister Ohwaki|Tim Heidecker|Joe Estevez,7r6qgKD-m8U,172216,2327,44,Sully,2016,3263904,7.4,96,233721,False,NA,NA,NA,NA
-8,8,9/14/2016,Axiom Serradimigni|Ayaka Ohwaki|Gregg Turkington|John Aprea|Mark Proksch|Mister Ohwaki|Tim Heidecker|Joe Estevez,7r6qgKD-m8U,172216,2327,44,When the Bough Breaks,2016,1389139,5.1,107,5785,False,NA,NA,NA,NA
-8,9,9/21/2016,Gregg Turkington|Tim Heidecker,m7XQZnBDJKY,163041,1894,35,Bridget Jones's Baby,2016,1473832,6.5,123,67428,False,5,False,5,False
-8,9,9/21/2016,Gregg Turkington|Tim Heidecker,m7XQZnBDJKY,163041,1894,35,Snowden,2016,3774114,7.3,134,135345,False,5,False,0,False
-8,10,9/28/2016,Gregg Turkington|Tim Heidecker,gZNF7-v-qGA,167224,2088,38,The Magnificent Seven,2016,2404435,6.9,132,183218,False,5,False,5,False
-8,10,9/28/2016,Gregg Turkington|Tim Heidecker,gZNF7-v-qGA,167224,2088,38,Storks,2016,4624424,6.8,87,55412,False,5,False,5,False
-9,1,3/6/2017,Gregg Turkington|Mark Proksch|Tim Heidecker,OU0TaprKPRc,172475,1945,70,The Wall,2017,4218696,6.2,88,23673,False,5,False,5,False
-9,1,3/6/2017,Gregg Turkington|Mark Proksch|Tim Heidecker,OU0TaprKPRc,172475,1945,70,Kong: Skull Island,2017,3731562,6.6,118,264994,False,5,False,5,False
-9,2,3/13/2017,Gregg Turkington|John Lenard|Mark Proksch|Tim Heidecker,anEU1fPn8JI,127716,1351,71,T2 Trainspotting,2017,2763304,7.2,117,111954,False,5,False,5,False
-9,2,3/13/2017,Gregg Turkington|John Lenard|Mark Proksch|Tim Heidecker,anEU1fPn8JI,127716,1351,71,The Belko Experiment,2016,1082807,6.1,89,43541,False,5,False,NA,False
-9,3,3/20/2017,Gregg Turkington|Mark Proksch|Tim Heidecker,wRGvQosfuos,135156,1381,58,Power Rangers,2017,3717490,5.9,124,100807,False,NA,False,5,True
-9,3,3/20/2017,Gregg Turkington|Mark Proksch|Tim Heidecker,wRGvQosfuos,135156,1381,58,CHIPS,2017,0493405,6.0,100,42040,False,5,False,5,False
-9,4,3/27/2017,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Mark Proksch|Tim Heidecker,37fPcXtoIUk,120998,1354,43,The Boss Baby,2017,3874544,6.3,97,106865,False,5,False,5,False
-9,4,3/27/2017,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Mark Proksch|Tim Heidecker,37fPcXtoIUk,120998,1354,43,The Zookeeper's Wife,2017,1730768,7.0,127,38072,False,5,False,NA,False
-9,5,4/3/2017,Gregg Turkington|Juliana Serradimigni|Manuel Giusti|Mark Proksch|Tim Heidecker,KiEfjXD-KwE,119726,1333,30,The Case for Christ,2017,6113488,6.3,112,7683,False,5,False,5,False
-9,5,4/3/2017,Gregg Turkington|Juliana Serradimigni|Manuel Giusti|Mark Proksch|Tim Heidecker,KiEfjXD-KwE,119726,1333,30,Smurfs: The Lost Village,2017,2398241,6.0,90,18153,False,5,False,5,False
-9,6,4/10/2017,Gregg Turkington|Mark Proksch|Luther Sanchez|Tim Heidecker,1xkShGA6IQs,134449,1415,54,Fast & Furious 8,2017,4630562,6.7,136,201897,False,5,False,NA,False
-9,6,4/10/2017,Gregg Turkington|Mark Proksch|Luther Sanchez|Tim Heidecker,1xkShGA6IQs,134449,1415,54,The Lost City of Z,2016,1212428,6.6,141,77564,False,5,True,5,True
-9,7,4/17/2017,Gregg Turkington|Mark Proksch,QFdzuCNLEfs,133376,1796,73,Unforgettable,2017,3462710,5.1,100,13785,False,NA,NA,NA,NA
-9,7,4/17/2017,Gregg Turkington|Mark Proksch,QFdzuCNLEfs,133376,1796,73,Born in China,2016,4629266,7.2,79,3479,False,NA,NA,NA,NA
-9,7,4/17/2017,Gregg Turkington|Mark Proksch,QFdzuCNLEfs,133376,1796,73,Animal Crackers,2017,4155534,5.8,105,2252,False,NA,NA,NA,NA
-9,8,4/24/2017,Gregg Turkington|Mark Proksch|Tim Heidecker|Joe Estevez,XWzt9NRe8Ac,107820,1380,38,How to Be a Latin Lover,2017,4795124,6.0,115,13836,False,5,False,NA,NA
-9,8,4/24/2017,Gregg Turkington|Mark Proksch|Tim Heidecker|Joe Estevez,XWzt9NRe8Ac,107820,1380,38,The Circle,2017,4287320,5.3,110,83212,False,5,False,NA,NA
-9,9,5/1/2017,Gregg Turkington|Tim Heidecker,2j33hkDxYTs,124624,1352,52,Guardians of the Galaxy Vol. 2,2017,3896198,7.6,136,559822,False,5,False,5,False
-9,9,5/1/2017,Gregg Turkington|Tim Heidecker,2j33hkDxYTs,124624,1352,52,The Lovers,2017,5770620,6.1,97,3398,False,5,False,NA,False
-9,10,5/8/2017,Gregg Turkington|Tim Heidecker,LCvM2IXg0lM,132396,1687,75,King Arthur: Legend of the Sword,2017,1972591,6.7,126,189456,False,5,True,5,False
-9,10,5/8/2017,Gregg Turkington|Tim Heidecker,LCvM2IXg0lM,132396,1687,75,Snatched,2017,2334871,4.5,90,32816,False,5,False,4,False
-10,1,3/22/2018,Gregg Turkington|Tim Heidecker,saGMEd_02t8,323484,5297,200,Pacific Rim: Uprising,2018,2557478,5.6,111,104596,False,5,False,5,False
-10,1,3/22/2018,Gregg Turkington|Tim Heidecker,saGMEd_02t8,323484,5297,200,Sherlock Gnomes,2018,2296777,5.2,86,10124,False,5,False,5,False
-10,2,3/28/2018,Gregg Turkington|Tim Heidecker,tnPZtftH1F8,201356,2614,113,Acrimony,2018,6063050,5.8,120,7747,False,5,True,5,True
-10,2,3/28/2018,Gregg Turkington|Tim Heidecker,tnPZtftH1F8,201356,2614,113,Ready Player One,2018,1677720,7.5,140,361384,False,5,False,5,False
-10,3,4/6/2018,Gregg Turkington|Mark Proksch|Max Eucompco|Tim Heidecker,nY5XVaneJhw,221030,2630,95,You Were Never Really Here,2017,5742374,6.8,89,101515,False,5,False,5,False
-10,3,4/6/2018,Gregg Turkington|Mark Proksch|Max Eucompco|Tim Heidecker,nY5XVaneJhw,221030,2630,95,Chappaquiddick,2017,5270948,6.4,106,11803,False,5,False,5,False
-10,4,4/12/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,H9HXh5ZYkn4,157101,2299,75,Sgt. Stubby: An American Hero,2018,5314190,6.9,84,1897,False,5,False,5,False
-10,4,4/12/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,H9HXh5ZYkn4,157101,2299,75,Overboard,2018,1563742,6.0,112,33832,False,5,False,5,False
-10,5,4/19/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,fU-bU8MIeUs,152634,2052,97,Super Troopers 2,2018,0859635,6.1,100,23607,False,5,False,5,False
-10,5,4/19/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,fU-bU8MIeUs,152634,2052,97,Rampage,2018,2231461,6.1,107,141131,False,5,False,5,False
-10,6,4/26/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,OGgGA3XCFLY,135132,1755,60,Traffik,2018,5670152,6.0,96,18320,False,5,False,NA,False
-10,7,5/3/2018,Gregg Turkington|Tim Heidecker|Joe Estevez,83mWOlEqvk4,421575,5634,273,Avengers: Infinity War,2018,4154756,8.4,149,814660,False,5,False,5,False
-10,8,5/10/2018,Gregg Turkington|Tim Heidecker,nvMA_jKlQ_o,164831,2223,51,Life of the Party,2018,5619332,5.6,105,32870,False,5,True,5,False
-10,8,5/10/2018,Gregg Turkington|Tim Heidecker,nvMA_jKlQ_o,164831,2223,51,Breaking In,2018,7137846,5.4,88,13994,False,5,False,NA,False
-10,9,5/17/2018,Gregg Turkington|Mark Proksch|Tim Heidecker,XYReLQBKo50,148988,2335,126,Show Dogs,2018,5691024,3.8,92,4136,False,5,False,NA,False
-10,9,5/17/2018,Gregg Turkington|Mark Proksch|Tim Heidecker,XYReLQBKo50,148988,2335,126,Deadpool 2,2018,5463162,7.7,119,469518,False,5,False,NA,False
-10,10,5/25/2018,Gregg Turkington|Tim Heidecker,m1a1sLe1W3w,185342,3626,97,Solo: A Star Wars Story,2018,3778644,6.9,135,284042,False,NA,False,NA,False
-11,1,9/25/2019,Gregg Turkington|Tim Heidecker,TkftGABKsnU,166669,4772,67,Abominable,2019,6324278,7.0,97,27731,False,5,False,5,False
-11,1,9/25/2019,Gregg Turkington|Tim Heidecker,TkftGABKsnU,166669,4772,67,Judy,2019,7549996,6.8,118,38605,True,5,False,5,True
-11,2,10/2/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,G5vfOMSA-H8,219737,5393,203,Joker,2019,7286456,8.5,122,899852,True,5,True,6,True
-11,2,10/2/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,G5vfOMSA-H8,219737,5393,203,The Current War,2017,2140507,6.5,108,18639,False,NA,NA,NA,NA
-11,3,10/9/2019,Gregg Turkington|Tim Heidecker|Joe Estevez|Josh Lorton,qmkZDFggYZE,140271,3280,57,Gemini Man,2019,1025100,5.7,117,82290,False,4,False,5,False
-11,3,10/9/2019,Gregg Turkington|Tim Heidecker|Joe Estevez|Josh Lorton,qmkZDFggYZE,140271,3280,57,The Addams Family,2019,1620981,5.8,86,27391,False,5,False,NA,False
-11,4,10/16/2019,Gregg Turkington|Tim Heidecker|Michael Matthews|Josh Lorton,RAMs41nvta8,102023,2400,53,Mister America,2019,10579992,6.5,89,1046,False,3,False,0,False
-11,4,10/16/2019,Gregg Turkington|Tim Heidecker|Michael Matthews|Josh Lorton,RAMs41nvta8,102023,2400,53,Maleficent: Mistress of Evil,2019,4777008,6.6,119,81477,False,5,False,5,False
-11,5,10/23/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,zJXuik5QQ7A,102016,2279,34,The Last Full Measure,2018,0783640,6.7,116,6850,False,NA,NA,NA,NA
-11,5,10/23/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,zJXuik5QQ7A,102016,2279,34,Black and Blue,2019,7390646,6.4,108,15401,False,NA,NA,NA,NA
-11,6,10/30/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,ciX-tauchQs,106233,2223,54,Terminator: Dark Fate,2019,6450804,6.2,128,144163,False,5,False,5,True
-11,6,10/30/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,ciX-tauchQs,106233,2223,54,Motherless Brooklyn,2019,0385887,6.8,144,39518,False,5,False,5,False
-11,7,11/6/2019,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Tim Heidecker|Michael Matthews,tgPsYWyZCgc,103819,2442,44,Arctic Dogs,2019,4426464,4.6,92,1317,False,5,False,5,False
-11,7,11/6/2019,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Tim Heidecker|Michael Matthews,tgPsYWyZCgc,103819,2442,44,Midway,2019,6924650,6.7,138,62659,False,5,False,5,False
-11,8,11/13/2019,Gregg Turkington|Mark Proksch|Tim Heidecker|Toni Newman,HE0pBci6wVY,100906,2213,53,Charlie's Angels,2019,5033998,4.8,118,54247,False,NA,NA,5,False
-11,8,11/13/2019,Gregg Turkington|Mark Proksch|Tim Heidecker|Toni Newman,HE0pBci6wVY,100906,2213,53,The Report,2019,8236336,7.2,119,31602,False,NA,NA,NA,NA
-11,9,11/20/2019,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Tim Heidecker|Joe Estevez|Toni Newman,-s1y1WFrawU,100240,2166,39,Frozen II,2019,4520988,6.9,103,129910,False,5,False,NA,NA
-11,9,11/20/2019,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Tim Heidecker|Joe Estevez|Toni Newman,-s1y1WFrawU,100240,2166,39,21 Bridges,2019,8688634,6.6,99,45601,False,5,False,NA,NA
-11,10,11/27/2019,Gregg Turkington|Tim Heidecker|Toni Newman,EInX_lIWpEU,100236,2338,46,Knives Out,2019,8946378,7.9,130,418912,False,NA,NA,NA,NA
-11,10,11/27/2019,Gregg Turkington|Tim Heidecker|Toni Newman,EInX_lIWpEU,100236,2338,46,Queen & Slim,2019,8722346,7.1,132,21861,False,NA,NA,NA,NA
+season,episode,airdate,hosts,youtube_id, view_count,like_count,dislike_count,title,year,imdb_id,imdb_rating,runtime,imdb_cast,imdb_votes,oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar
+1,1,11/2/2012,Gregg Turkington|Tim Heidecker,qFHLfmoLchI,551430,2907,38,Flight,2012,1907668,7.3,138,Nadine Velazquez|Denzel Washington|Carter Cabassa|Adam C. Edwards|Tamara Tunie,322687,False,5,True,5,True
+1,1,11/2/2012,Gregg Turkington|Tim Heidecker,qFHLfmoLchI,551430,2907,38,The Man with the Iron Fists,2012,1258972,5.4,95,RZA|Rick Yune|Russell Crowe|Lucy Liu|Dave Bautista,60187,False,5,False,4,False
+1,2,11/8/2012,Gregg Turkington|Tim Heidecker,SQZJktp-etk,206545,1586,23,Skyfall,2012,1074638,7.7,143,Daniel Craig|Judi Dench|Javier Bardem|Ralph Fiennes|Naomie Harris,625396,True,5,False,5,False
+1,2,11/8/2012,Gregg Turkington|Tim Heidecker,SQZJktp-etk,206545,1586,23,Lincoln,2012,0443272,7.3,150,Daniel Day-Lewis|Sally Field|David Strathairn|Joseph Gordon-Levitt|James Spader,242512,True,4,False,6,False
+1,3,11/16/2012,Gregg Turkington|Tim Heidecker,nfOMBioJDJg,212395,1427,27,Anna Karenina,2012,1781769,6.6,129,Matthew Macfadyen|Eric MacLennan|Kelly Macdonald|Theo Morrissey|Cecily Morrissey,90832,True,5,True,5,True
+1,3,11/16/2012,Gregg Turkington|Tim Heidecker,nfOMBioJDJg,212395,1427,27,The Twilight Saga: Breaking Dawn - Part 2,2012,1673434,5.5,115,Kristen Stewart|Robert Pattinson|Taylor Lautner|Peter Facinelli|Elizabeth Reaser,229418,False,4,False,4,False
+1,4,11/21/2012,Gregg Turkington|Tim Heidecker,QYVJLsbciS8,172734,1265,15,Red Dawn,2012,1234719,5.4,93,Chris Hemsworth|Josh Peck|Josh Hutcherson|Adrianne Palicki|Isabel Lucas,73002,False,4,False,5,False
+1,4,11/21/2012,Gregg Turkington|Tim Heidecker,QYVJLsbciS8,172734,1265,15,Life of Pi,2012,0454876,7.9,127,Suraj Sharma|Irrfan Khan|Ayush Tandon|Gautam Belur|Adil Hussain,575235,True,5,False,4,True
+1,5,11/29/2012,Gregg Turkington|Tim Heidecker,WzFILC5bI_c,179387,1558,19,Universal Soldier: Day of Reckoning,2012,1659343,5.0,114,Jean-Claude Van Damme|Dolph Lundgren|Scott Adkins|Mariah Bonner|Andrei Arlovski,19166,False,5,False,NA,NA
+1,5,11/29/2012,Gregg Turkington|Tim Heidecker,WzFILC5bI_c,179387,1558,19,The Frozen Ground,2013,2005374,6.4,105,Nicolas Cage|Vanessa Hudgens|John Cusack|Dean Norris|Gia Mantegna,57503,False,4,False,4,False
+1,6,12/6/2012,Gregg Turkington|Tim Heidecker,HMKm0CYEXDU,152836,1036,13,Playing for Keeps,2012,1540128,5.7,105,Gerard Butler|Jessica Biel|Noah Lomax|Dennis Quaid|Uma Thurman,28547,False,4,False,4,False
+1,6,12/6/2012,Gregg Turkington|Tim Heidecker,HMKm0CYEXDU,152836,1036,13,Hyde Park on Hudson,2012,1477855,5.8,94,Bill Murray|Laura Linney|Samuel West|Olivia Colman|Elizabeth Marvel,11210,False,5,True,5,True
+1,7,12/13/2012,Gregg Turkington|Tim Heidecker,Okikb3fpN4w,171914,1202,18,Les Miserables,2012,1707386,7.6,158,Hugh Jackman|Russell Crowe|Anne Hathaway|Amanda Seyfried|Sacha Baron Cohen,305958,True,4,False,5,False
+1,7,12/13/2012,Gregg Turkington|Tim Heidecker,Okikb3fpN4w,171914,1202,18,The Hobbit: An Unexpected Journey,2012,0903624,7.8,169,Ian McKellen|Martin Freeman|Richard Armitage|Ken Stott|Graham McTavish,750855,False,5,True,6,True
+1,8,12/21/2012,Gregg Turkington|Tim Heidecker,qjqfZhyGSrA,192513,1664,15,"Monsters, Inc.",2001,0198781,8.0,92,John Goodman|Billy Crystal|Mary Gibbs|Steve Buscemi|James Coburn,805159,False,5,False,3,False
+1,8,12/21/2012,Gregg Turkington|Tim Heidecker,qjqfZhyGSrA,192513,1664,15,Zero Dark Thirty,2012,1790885,7.4,157,Jason Clarke|Reda Kateb|Jessica Chastain|Kyle Chandler|Jennifer Ehle,269166,True,4,False,3,True
+1,9,12/27/2012,Gregg Turkington|Tim Heidecker,vvoqgPay8bM,166112,1364,17,Jack Reacher,2012,0790724,7.0,130,Tom Cruise|Rosamund Pike|Richard Jenkins|David Oyelowo|Werner Herzog,304899,False,5,False,6,False
+1,9,12/27/2012,Gregg Turkington|Tim Heidecker,vvoqgPay8bM,166112,1364,17,Cirque du Soleil: Worlds Away,2012,1792647,6.8,91,Erica Linz|Igor Zaripov|Lutz Halbhubner|John Clarke|Dallas Barnett,7839,False,5,False,4,False
+1,10,1/10/2013,Gregg Turkington|Tim Heidecker,u75FIgboNHU,183017,1574,18,Django Unchained,2012,1853728,8.4,165,Jamie Foxx|Christoph Waltz|Leonardo DiCaprio|Kerry Washington|Samuel L. Jackson,1337292,True,5,False,4,False
+1,10,1/10/2013,Gregg Turkington|Tim Heidecker,u75FIgboNHU,183017,1574,18,Parental Guidance,2012,1047540,6.0,105,Billy Crystal|Bette Midler|Marisa Tomei|Tom Everett Scott|Bailee Madison,24730,False,NA,False,6,False
+2,1,2/7/2013,Gregg Turkington|Tim Heidecker,LPw-R-WWdOc,176625,1315,13,Identity Thief,2013,2024432,5.7,111,Jason Bateman|Melissa McCarthy|Jon Favreau|Amanda Peet|T.I.,123590,False,5,False,4,False
+2,1,2/7/2013,Gregg Turkington|Tim Heidecker,LPw-R-WWdOc,176625,1315,13,Side Effects,2013,2053463,7.1,106,Rooney Mara|Carmen Pelaez|Marin Ireland|Channing Tatum|Polly Draper,178916,False,5,False,6,False
+2,2,2/14/2013,Gregg Turkington|Tim Heidecker,1M2yXVn2GGA,189772,2039,34,Escape from Planet Earth,2013,0765446,5.9,89,Brendan Fraser|Rob Corddry|Ricky Gervais|Jonathan Morgan Heit|Jessica Alba,24357,False,NA,False,NA,False
+2,2,2/14/2013,Gregg Turkington|Tim Heidecker,1M2yXVn2GGA,189772,2039,34,A Good Day to Die Hard,2013,1606378,5.3,98,Bruce Willis|Jai Courtney|Sebastian Koch|Mary Elizabeth Winstead|Yulia Snigir,196746,False,5,False,5,False
+2,3,2/21/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,MMTsSMttjdI,168264,1533,24,Snitch,2013,0882977,6.4,112,Dwayne Johnson|Barry Pepper|Jon Bernthal|Susan Sarandon|Michael Kenneth Williams,82520,False,5,False,4,False
+2,3,2/21/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,MMTsSMttjdI,168264,1533,24,Dark Skies,2013,2387433,6.3,97,Keri Russell|Josh Hamilton|Dakota Goyo|Kadan Rockett|J.K. Simmons,70505,False,5,False,3,False
+2,4,2/28/2013,Gregg Turkington|Tim Heidecker,LjVTxxFNeQY,148684,1159,17,21 & Over,2013,1711425,5.8,93,Miles Teller|Skylar Astin|Justin Chon|Sarah Wright|Jonathan Keltz,71648,False,5,False,5,False
+2,4,2/28/2013,Gregg Turkington|Tim Heidecker,LjVTxxFNeQY,148684,1159,17,Jack the Giant Slayer,2013,1351685,6.2,114,Nicholas Hoult|Eleanor Tomlinson|Ewan McGregor|Stanley Tucci|Eddie Marsan,130762,False,5,False,6,False
+2,5,3/7/2013,Gregg Turkington|Tim Heidecker,JhcGWg7aV0w,156529,1342,14,Oz the Great and Powerful,2013,1623205,6.3,130,James Franco|Mila Kunis|Rachel Weisz|Michelle Williams|Zach Braff,198156,False,5,False,4,False
+2,5,3/7/2013,Gregg Turkington|Tim Heidecker,JhcGWg7aV0w,156529,1342,14,Dead Man Down,2013,2101341,6.5,118,Colin Farrell|Noomi Rapace|Terrence Howard|Dominic Cooper|Isabelle Huppert,63592,False,5,False,5,True
+2,6,3/14/2013,Gregg Turkington|Tim Heidecker,fah28oNAhT8,173070,1505,21,Carrie,2013,1939659,5.9,100,Julianne Moore|Chloë Grace Moretz|Gabriella Wilde|Portia Doubleday|Zoë Belkin,132408,False,5,False,4,False
+2,6,3/14/2013,Gregg Turkington|Tim Heidecker,fah28oNAhT8,173070,1505,21,The Incredible Burt Wonderstone,2013,0790628,5.9,100,Steve Carell|Steve Buscemi|Olivia Wilde|Jim Carrey|James Gandolfini,70448,False,5,True,5,False
+2,7,3/21/2013,Gregg Turkington|Tim Heidecker,XxJ7YQS8sos,163722,1437,7,The Croods,2013,0481499,7.2,98,Nicolas Cage|Emma Stone|Ryan Reynolds|Catherine Keener|Cloris Leachman,188758,False,5,False,5,False
+2,8,3/28/2013,Ayaka Ohwaki|Gregg Turkington|Jimmy McNichol|Tim Heidecker,jFmz7t07i7w,146736,1078,18,G.I. Joe: Retaliation,2013,1583421,5.8,110,Dwayne Johnson|Jonathan Pryce|Lee Byung-Hun|Elodie Yung|Ray Stevenson,172198,False,NA,NA,5,False
+2,8,3/28/2013,Ayaka Ohwaki|Gregg Turkington|Jimmy McNichol|Tim Heidecker,jFmz7t07i7w,146736,1078,18,Temptation: Confessions of a Marriage Counselor,2013,2070862,5.0,111,Jurnee Smollett|Lance Gross|Kim Kardashian West|Vanessa Williams|Robbie Jones,11383,False,NA,NA,4,False
+2,9,4/4/2013,Gregg Turkington|Tim Heidecker,ri0n5EMEApY,165667,1397,25,The Company You Keep,2012,1381404,6.4,125,Robert Redford|Shia LaBeouf|Julie Christie|Susan Sarandon|Nick Nolte,31425,False,5,False,4,False
+2,9,4/4/2013,Gregg Turkington|Tim Heidecker,ri0n5EMEApY,165667,1397,25,Jurassic Park,1993,0107290,8.1,127,Sam Neill|Laura Dern|Jeff Goldblum|Richard Attenborough|Bob Peck,856936,False,NA,False,NA,False
+2,10,4/11/2013,Gregg Turkington|Tim Heidecker,R_5-N9t26V8,179318,1479,11,Oblivion,2013,1483013,7.0,124,Tom Cruise|Morgan Freeman|Olga Kurylenko|Andrea Riseborough|Nikolaj Coster-Waldau,481770,False,5,False,NA,False
+2,10,4/11/2013,Gregg Turkington|Tim Heidecker,R_5-N9t26V8,179318,1479,11,Scary Movie 5,2013,0795461,3.5,88,Ashley Tisdale|Simon Rex|Gracie Whitton|Ava Kolker|Dylan Morris,65274,False,5,False,4,False
+3,1,7/3/2013,Gregg Turkington|Tim Heidecker,Sx19DKoUdUg,228913,1970,46,Despicable Me 2,2013,1690953,7.3,98,Steve Carell|Kristen Wiig|Benjamin Bratt|Miranda Cosgrove|Russell Brand,366411,False,5,True,4,False
+3,1,7/3/2013,Gregg Turkington|Tim Heidecker,Sx19DKoUdUg,228913,1970,46,The Lone Ranger,2013,1210819,6.4,150,Johnny Depp|Armie Hammer|William Fichtner|Tom Wilkinson|Ruth Wilson,219701,False,4,False,5,True
+3,2,7/10/2013,Gregg Turkington|Tim Heidecker,-3fzhadeZgg,191364,1634,117,Pacific Rim,2013,1663662,6.9,131,Charlie Hunnam|Diego Klattenhoff|Idris Elba|Rinko Kikuchi|Charlie Day,462663,False,5,False,4,False
+3,2,7/10/2013,Gregg Turkington|Tim Heidecker,-3fzhadeZgg,191364,1634,117,Grown Ups 2,2013,2191701,5.4,101,Adam Sandler|Kevin James|Chris Rock|David Spade|Salma Hayek,139199,False,5,False,5,False
+3,3,7/17/2013,Gregg Turkington|Tim Heidecker,_1g-Q7Nim6A,170263,1605,41,Turbo,2013,1860353,6.4,96,Ryan Reynolds|Paul Giamatti|Michael Peña|Samuel L. Jackson|Luis Guzmán,82889,False,5,False,5,False
+3,3,7/17/2013,Gregg Turkington|Tim Heidecker,_1g-Q7Nim6A,170263,1605,41,RED 2,2013,1821694,6.6,116,Bruce Willis|John Malkovich|Mary-Louise Parker|Helen Mirren|Anthony Hopkins,158593,False,5,False,5,False
+3,4,7/24/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,IcP5kn2kZcQ,181543,1506,37,Blue Jasmine,2013,2334873,7.3,98,Cate Blanchett|Joy Carlin|Richard Conti|Glen Caspillo|Alec Baldwin,190494,True,NA,False,6,True
+3,4,7/24/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,IcP5kn2kZcQ,181543,1506,37,The Wolverine,2013,1430132,6.7,126,Hugh Jackman|Tao Okamoto|Rila Fukushima|Hiroyuki Sanada|Svetlana Khodchenkova,426051,False,5,False,5,False
+3,5,7/31/2013,Gregg Turkington|Tim Heidecker,wE7iRtuJYK8,161199,1401,31,The Smurfs 2,2013,2017020,5.3,105,Hank Azaria|Neil Patrick Harris|Brendan Gleeson|Jayma Mays|Jacob Tremblay,37559,False,5,True,5,True
+3,5,7/31/2013,Gregg Turkington|Tim Heidecker,wE7iRtuJYK8,161199,1401,31,300: Rise of an Empire,2014,1253863,6.2,102,Sullivan Stapleton|Eva Green|Lena Headey|Hans Matheson|Callan Mulvey,278687,False,5,False,4,False
+3,6,8/7/2013,Gregg Turkington|Tim Heidecker,LIlXGcRH2Rs,136164,1241,47,Percy Jackson: Sea of Monsters,2013,1854564,5.8,106,Logan Lerman|Alexandra Daddario|Douglas Smith|Leven Rambin|Brandon T. Jackson,109409,False,5,False,5,False
+3,6,8/7/2013,Gregg Turkington|Tim Heidecker,LIlXGcRH2Rs,136164,1241,47,Elysium,2013,1535108,6.6,109,Matt Damon|Jodie Foster|Sharlto Copley|Alice Braga|Diego Luna,416551,False,NA,False,5,False
+3,7,8/14/2013,Gregg Turkington|Tim Heidecker,ScpA45z6BKQ,180152,1925,56,Kick-Ass 2,2013,1650554,6.5,103,Aaron Taylor-Johnson|Chloë Grace Moretz|Morris Chestnut|Claudia Lee|Amy Anzel,253022,False,5,False,5,False
+3,8,8/21/2013,Ayaka Ohwaki|John Aprea|Tim Heidecker,Yr_q3Gxvex0,158542,1200,55,The World's End,2013,1213663,7.0,109,Thomas Law|Zachary Bailess|Jasper Levine|James Tarpey|Luke Bromley,257403,False,NA,NA,5,False
+3,8,8/21/2013,Ayaka Ohwaki|John Aprea|Tim Heidecker,Yr_q3Gxvex0,158542,1200,55,The Colony,2013,1160996,5.3,95,Kevin Zegers|Laurence Fishburne|Bill Paxton|Charlotte Sullivan|Dru Viergever,42809,False,NA,NA,5,False
+3,9,8/28/2013,Ayaka Ohwaki|Gregg Turkington|Tim Heidecker,sPIniCEtY9U,195564,2299,42,Getaway,2013,2167202,4.4,90,Ethan Hawke|Selena Gomez|Jon Voight|Rebecca Budig|Paul Freeman,23108,False,2,False,5,False
+3,9,8/28/2013,Ayaka Ohwaki|Gregg Turkington|Tim Heidecker,sPIniCEtY9U,195564,2299,42,One Direction: This Is Us,2013,2515086,4.2,92,Niall Horan|Zayn Malik|Liam Payne|Harry Styles|Louis Tomlinson,23429,False,0,False,5,False
+3,10,9/4/2013,Gregg Turkington|Tim Heidecker,eYjQjvirrYc,176925,1480,36,Riddick,2013,1411250,6.4,119,Vin Diesel|Jordi Mollà|Matt Nable|Katee Sackhoff|Dave Bautista,153188,False,5,False,4,False
+4,1,1/8/2014,Gregg Turkington|Tim Heidecker,FcY1PUpHXso,233431,1874,46,Her,2013,1798709,8.0,126,Joaquin Phoenix|Lynn Adrianna Freedman|Lisa Renee Pitts|Gabe Gomez|Chris Pratt,532413,True,5,False,5,False
+4,1,1/8/2014,Gregg Turkington|Tim Heidecker,FcY1PUpHXso,233431,1874,46,Lone Survivor,2013,1091191,7.5,121,Mark Wahlberg|Taylor Kitsch|Emile Hirsch|Ben Foster|Yousuf Azami,263884,False,5,False,5,False
+4,2,1/15/2014,Gregg Turkington|Tim Heidecker,K_0ljrFYE5E,188425,2190,37,Ride Along,2014,1408253,6.2,99,Ice Cube|Kevin Hart|John Leguizamo|Bruce McGill|Tika Sumpter,102215,False,5,False,5,False
+4,2,1/15/2014,Gregg Turkington|Tim Heidecker,K_0ljrFYE5E,188425,2190,37,The Nut Job,2014,1821658,5.7,85,Will Arnett|Brendan Fraser|Liam Neeson|Katherine Heigl|Stephen Lang,26383,False,NA,False,NA,False
+4,3,1/22/2014,Gregg Turkington|Luther Sanchez|Tim Heidecker,vUsRviInqn4,167392,1502,36,Gimme Shelter,2013,1657510,6.5,101,Rosario Dawson|Brendan Fraser|Vanessa Hudgens|James Earl Jones|Stephanie Szostak,8165,False,5,False,4,False
+4,3,1/22/2014,Gregg Turkington|Luther Sanchez|Tim Heidecker,vUsRviInqn4,167392,1502,36,"I, Frankenstein",2014,1418377,5.1,92,Aaron Eckhart|Yvonne Strahovski|Miranda Otto|Bill Nighy|Jai Courtney,77917,False,5,False,5,False
+4,4,1/29/2014,Gregg Turkington|Luther Sanchez|Tim Heidecker,fSazKxKzn2E,222359,2120,38,That Awkward Moment,2014,1800246,6.1,94,Zac Efron|Miles Teller|Michael B. Jordan|Imogen Poots|Mackenzie Davis,97164,False,5,False,5,False
+4,4,1/29/2014,Gregg Turkington|Luther Sanchez|Tim Heidecker,fSazKxKzn2E,222359,2120,38,Labor Day,2013,1967545,6.9,111,Kate Winslet|Josh Brolin|Gattlin Griffith|Tobey Maguire|Tom Lipinski,42418,False,5,False,5,False
+4,5,2/5/2014,Gregg Turkington|Jimmy McNichol|Tim Heidecker|Joe Estevez,g8OlSE96I1s,296149,2211,79,The Lego Movie,2014,1490017,7.7,100,Will Arnett|Elizabeth Banks|Craig Berry|Alison Brie|David Burrows,321702,False,5,False,3,False
+4,5,2/5/2014,Gregg Turkington|Jimmy McNichol|Tim Heidecker|Joe Estevez,g8OlSE96I1s,296149,2211,79,RoboCop,2014,1234721,6.1,117,Joel Kinnaman|Gary Oldman|Michael Keaton|Abbie Cornish|Jackie Earle Haley,214956,False,5,False,NA,False
+4,6,2/12/2014,Gregg Turkington|Larry Turman,zL2wK-HyeJQ,186652,1887,198,Endless Love,2014,2318092,6.3,104,Alex Pettyfer|Gabriella Wilde|Bruce Greenwood|Joely Richardson|Robert Patrick,40069,False,5,False,NA,NA
+4,6,2/12/2014,Gregg Turkington|Larry Turman,zL2wK-HyeJQ,186652,1887,198,Girl on a Bicycle,2013,1686042,6.2,101,Vincenzo Amato|Nora Tschirner|Louise Monot|Paddy Considine|Roberta Danza,2108,False,5,False,NA,NA
+4,7,2/19/2014,Gregg Turkington|Tim Heidecker,obTi-asfsK4,187057,1575,34,Pompeii,2014,1921064,5.5,105,Dylan Schombing|Jean-Francois Lachapelle|Rebecca Roberts|Kiefer Sutherland|Sasha Roiz,105775,False,5,False,5,False
+4,8,2/26/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,GRUe-F0g2fc,180919,1720,15,Project Almanac,2015,2436386,6.4,106,Jonny Weston|Sofia Black-D'Elia|Sam Lerner|Allen Evangelista|Virginia Gardner,75511,False,5,False,5,False
+4,8,2/26/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,GRUe-F0g2fc,180919,1720,15,Non-Stop,2014,2024469,6.9,106,Liam Neeson|Julianne Moore|Scoot McNairy|Michelle Dockery|Nate Parker,248319,False,5,False,6,False
+4,9,3/5/2014,Gregg Turkington|Tim Heidecker,pZOBnKZ-X9U,151797,1463,22,Need for Speed,2014,2369135,6.4,132,Aaron Paul|Dominic Cooper|Imogen Poots|Kid Cudi|Rami Malek,161925,False,5,False,5,False
+4,9,3/5/2014,Gregg Turkington|Tim Heidecker,pZOBnKZ-X9U,151797,1463,22,Walk of Shame,2014,2463288,6.0,95,Elizabeth Banks|James Marsden|Gillian Jacobs|Sarah Wright|Ethan Suplee,50773,False,5,False,NA,False
+4,10,3/12/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,1mz3aHHFxpc,153092,1655,20,Muppets Most Wanted,2014,2281587,6.4,107,Ricky Gervais|Ty Burrell|Tina Fey|Steve Whitmire|Eric Jacobson,31361,False,5,False,5,False
+5,1,7/2/2014,Gregg Turkington|Tim Heidecker,9rKNLhPo9bg,203146,1646,35,Tammy,2014,2103254,4.9,97,Melissa McCarthy|Susan Sarandon|Kathy Bates|Allison Janney|Dan Aykroyd,47619,False,5,False,6,False
+5,1,7/2/2014,Gregg Turkington|Tim Heidecker,9rKNLhPo9bg,203146,1646,35,Deliver Us from Evil,2014,2377322,6.2,118,Eric Bana|Edgar Ramírez|Olivia Munn|Chris Coy|Dorian Missick,70397,False,5,False,5,False
+5,2,7/9/2014,Gregg Turkington|Tim Heidecker,VrL8tyJLeJk,182584,1900,43,Dawn of the Planet of the Apes,2014,2103281,7.6,130,Andy Serkis|Jason Clarke|Gary Oldman|Keri Russell|Toby Kebbell,409192,False,5,False,5,True
+5,2,7/9/2014,Gregg Turkington|Tim Heidecker,VrL8tyJLeJk,182584,1900,43,And So It Goes,2014,2465146,5.8,94,Michael Douglas|Diane Keaton|Sterling Jerins|Annie Parisse|Austin Lysy,12708,False,5,True,5,False
+5,3,7/16/2014,Gregg Turkington|Tim Heidecker,N0d3hMwjsxg,154036,1422,26,Jupiter Ascending,2015,1617661,5.3,127,Mila Kunis|Channing Tatum|Sean Bean|Eddie Redmayne|Douglas Booth,177645,False,5,False,3,False
+5,3,7/16/2014,Gregg Turkington|Tim Heidecker,N0d3hMwjsxg,154036,1422,26,Planes: Fire & Rescue,2014,2980706,6.0,83,Dane Cook|Ed Harris|Julie Bowen|Curtis Armstrong|John Michael Higgins,16424,False,5,False,5,False
+5,4,7/23/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,BQx_2bQniZI,167923,1529,31,Wish I Was Here,2014,2870708,6.7,106,Zach Braff|Pierce Gagnon|Kate Hudson|Joey King|Alexander Chaplin,36450,False,5,True,5,True
+5,4,7/23/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,BQx_2bQniZI,167923,1529,31,Hercules,2014,1267297,6.0,98,Dwayne Johnson|Ian McShane|John Hurt|Rufus Sewell|Aksel Hennie,144988,False,5,True,5,False
+5,4,7/23/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,BQx_2bQniZI,167923,1529,31,Magic in the Moonlight,2014,2870756,6.5,97,Colin Firth|Antonia Clarke|Natasha Andrews|Valérie Beaulieu|Peter Wollasch,63529,False,5,False,5,False
+5,5,7/30/2014,Gregg Turkington|Tim Heidecker,k_MbreQjXJ4,166302,1544,44,Get on Up,2014,2473602,6.9,139,Chadwick Boseman|Nelsan Ellis|Dan Aykroyd|Viola Davis|Lennie James,21925,False,5,True,5,False
+5,5,7/30/2014,Gregg Turkington|Tim Heidecker,k_MbreQjXJ4,166302,1544,44,Guardians of the Galaxy,2014,2015381,8.0,121,Chris Pratt|Zoe Saldana|Dave Bautista|Vin Diesel|Bradley Cooper,1032992,False,5,False,5,False
+5,6,8/6/2014,Gregg Turkington|Tim Heidecker,sU5PVNZ1GSo,172821,2464,60,Into the Storm,2014,2106361,5.8,89,Richard Armitage|Sarah Wayne Callies|Matt Walsh|Max Deacon|Nathan Kress,64604,False,NA,NA,NA,NA
+5,6,8/6/2014,Gregg Turkington|Tim Heidecker,sU5PVNZ1GSo,172821,2464,60,Teenage Mutant Ninja Turtles,2014,1291150,5.8,101,Megan Fox|Will Arnett|William Fichtner|Alan Ritchson|Noel Fisher,199796,False,5,False,5,False
+5,7,8/13/2014,Gregg Turkington|Tim Heidecker,Q6_ckZw65dI,161784,1412,30,The Expendables 3,2014,2333784,6.1,126,Sylvester Stallone|Jason Statham|Harrison Ford|Arnold Schwarzenegger|Mel Gibson,167755,False,5,False,5,True
+5,7,8/13/2014,Gregg Turkington|Tim Heidecker,Q6_ckZw65dI,161784,1412,30,Let's Be Cops,2014,1924435,6.4,104,Jake Johnson|Damon Wayans Jr.|Rob Riggle|Nina Dobrev|James D'Arcy,126626,False,5,False,5,False
+5,8,8/20/2014,Gregg Turkington|Tim Heidecker,P93K-73MshM,168160,1525,32,Sin City: A Dame to Kill For,2014,0458481,6.5,102,Mickey Rourke|Jessica Alba|Josh Brolin|Joseph Gordon-Levitt|Rosario Dawson,151380,False,5,False,5,False
+5,9,8/27/2014,"Ayaka Ohwaki|Gregg Turkington|Tim Heidecker|Tom Cruise Heidecker, Jr",hGzuqylxR8w,130793,1204,21,The November Man,2014,2402157,6.3,108,Pierce Brosnan|Luke Bracey|Olga Kurylenko|Bill Smitrovich|Amila Terzimehic,62888,False,5,False,4,False
+5,9,8/27/2014,"Ayaka Ohwaki|Gregg Turkington|Tim Heidecker|Tom Cruise Heidecker, Jr",hGzuqylxR8w,130793,1204,21,Jessabelle,2014,2300975,5.4,90,Sarah Snook|Joelle Carter|Mark Webber|David Andrews|Ana de la Reguera,22581,False,5,False,5,False
+5,10,9/3/2014,Gregg Turkington|Tim Heidecker,AAVDo3uP07E,148513,1630,19,Dark Places,2015,2402101,6.2,113,Charlize Theron|Sterling Jerins|Nicholas Hoult|Christina Hendricks|Corey Stoll,41742,False,NA,False,NA,False
+5,10,9/3/2014,Gregg Turkington|Tim Heidecker,AAVDo3uP07E,148513,1630,19,The Green Inferno,2013,2403021,5.3,100,Lorenza Izzo|Ariel Levy|Daryl Sabara|Kirby Bliss Blanton|Magda Apanowicz,38437,False,5,False,NA,False
+6,1,2/4/2015,Gregg Turkington|Mark Proksch,l4TPZad5MVI,201138,2553,141,Jupiter Ascending,2015,1617661,5.3,127,Mila Kunis|Channing Tatum|Sean Bean|Eddie Redmayne|Douglas Booth,177645,False,5,False,NA,NA
+6,1,2/4/2015,Gregg Turkington|Mark Proksch,l4TPZad5MVI,201138,2553,141,The SpongeBob Movie: Sponge Out of Water,2015,2279373,6.0,92,Antonio Banderas|Eric Bauza|Tim Conway|Eddie Deezen|Rob Paulsen,48688,False,5,False,NA,NA
+6,2,2/11/2015,Gregg Turkington|Mark Proksch|Tim Heidecker,nbyamRX_pZo,271891,2945,62,Kingsman: The Secret Service,2014,2802144,7.7,129,Adrian Quinton|Colin Firth|Mark Strong|Jonno Davies|Jack Davenport,584923,False,5,False,5,False
+6,2,2/11/2015,Gregg Turkington|Mark Proksch|Tim Heidecker,nbyamRX_pZo,271891,2945,62,Fifty Shades of Grey,2015,2322441,4.1,125,Dakota Johnson|Jamie Dornan|Jennifer Ehle|Eloise Mumford|Victor Rasuk,295532,False,5,False,5,False
+6,3,2/18/2015,Gregg Turkington|Tim Heidecker,6KhwiJNCUmc,172688,1591,26,"McFarland, USA",2015,2097298,7.4,129,Kevin Costner|Ramiro Rodriguez|Carlos Pratts|Johnny Ortiz|Rafael Martinez,35066,False,5,False,6,True
+6,3,2/18/2015,Gregg Turkington|Tim Heidecker,6KhwiJNCUmc,172688,1591,26,Hot Tub Time Machine 2,2015,2637294,5.1,93,Rob Corddry|Craig Robinson|Clark Duke|Adam Scott|Gillian Jacobs,36666,False,5,False,5,False
+6,4,2/25/2015,Gregg Turkington|Tim Heidecker,ZGy4YwfTPBY,141184,1362,14,The Lazarus Effect,2015,2918436,5.2,83,Mark Duplass|Olivia Wilde|Sarah Bolger|Evan Peters|Donald Glover,40751,False,5,False,5,False
+6,4,2/25/2015,Gregg Turkington|Tim Heidecker,ZGy4YwfTPBY,141184,1362,14,Focus,2015,2381941,6.6,105,Will Smith|Margot Robbie|Adrian Martinez|Gerald McRaney|Rodrigo Santoro,215421,False,5,True,5,False
+6,5,3/4/2015,Gregg Turkington|Tim Heidecker|Joe Estevez,kFBLNgsVhdo,199874,1686,36,Chappie,2015,1823672,6.8,120,Sharlto Copley|Dev Patel|Ninja|Yo-Landi Visser|Jose Pablo Cantillo,227974,False,5,False,5,False
+6,5,3/4/2015,Gregg Turkington|Tim Heidecker|Joe Estevez,kFBLNgsVhdo,199874,1686,36,No Escape (aka The Coup),2015,1781922,6.8,103,Owen Wilson|Lake Bell|Sterling Jerins|Claire Geare|Pierce Brosnan,77500,False,5,False,5,False
+6,5,3/4/2015,Gregg Turkington|Tim Heidecker|Joe Estevez,kFBLNgsVhdo,199874,1686,36,The Second Best Exotic Marigold Hotel,2015,2555736,6.6,122,Dev Patel|Maggie Smith|Danny Mahoney|David Strathairn|Judi Dench,31057,False,5,False,5,False
+6,6,3/11/2015,Gregg Turkington|Tim Heidecker,G07P3ZQwkSU,115517,942,14,Cinderella,2015,1661199,6.9,105,Cate Blanchett|Lily James|Richard Madden|Helena Bonham Carter|Nonso Anozie,158429,False,NA,False,5,True
+6,6,3/11/2015,Gregg Turkington|Tim Heidecker,G07P3ZQwkSU,115517,942,14,In the Heart of the Sea,2015,1390411,6.9,122,Chris Hemsworth|Benjamin Walker|Cillian Murphy|Brendan Gleeson|Ben Whishaw,121435,False,5,False,5,False
+6,7,3/18/2015,"Ayaka Ohwaki|Gregg Turkington|Tim Heidecker|Tom Cruise Heidecker, Jr",Ikb2QabxcDA,112181,1111,33,Insurgent,2015,2908446,6.2,119,Kate Winslet|Jai Courtney|Mekhi Phifer|Shailene Woodley|Theo James,215542,False,5,False,5,False
+6,7,3/18/2015,"Ayaka Ohwaki|Gregg Turkington|Tim Heidecker|Tom Cruise Heidecker, Jr",Ikb2QabxcDA,112181,1111,33,The Gunman,2015,2515034,5.8,115,Sean Penn|Jasmine Trinca|Javier Bardem|Ray Winstone|Mark Rylance,38637,False,5,False,5,True
+6,8,3/25/2015,Gregg Turkington|Tim Heidecker,mYVQo_jH3Po,128381,1469,17,Get Hard,2015,2561572,6.0,100,Will Ferrell|Kevin Hart|Craig T. Nelson|Alison Brie|Edwina Findley Dickerson,121641,False,5,False,5,False
+6,8,3/25/2015,Gregg Turkington|Tim Heidecker,mYVQo_jH3Po,128381,1469,17,Home,2015,2224026,6.6,94,Jim Parsons|Rihanna|Steve Martin|Jennifer Lopez|Matt Jones,91078,False,5,False,4,False
+6,9,4/1/2015,Gregg Turkington|Tim Heidecker,486OCi4uINY,157822,1633,30,Furious 7,2015,2820852,7.1,137,Vin Diesel|Paul Walker|Jason Statham|Michelle Rodriguez|Jordana Brewster,356362,False,5,False,7,False
+6,9,4/1/2015,Gregg Turkington|Tim Heidecker,486OCi4uINY,157822,1633,30,Woman in Gold,2015,2404425,7.3,109,Helen Mirren|Ryan Reynolds|Daniel Brühl|Katie Holmes|Tatiana Maslany,53317,False,5,False,5,False
+6,10,4/8/2015,Ayaka Ohwaki|Tim Heidecker,JDUbtFKcf2M,124639,1165,44,The Moon and the Sun,2016,2328678,NA,NA,NA,NA,False,NA,NA,5,False
+6,10,4/8/2015,Ayaka Ohwaki|Tim Heidecker,JDUbtFKcf2M,124639,1165,44,Ex Machina,2014,0470752,7.7,108,Domhnall Gleeson|Alicia Vikander|Oscar Isaac|Sonoya Mizuno|Corey Johnson,468314,False,NA,NA,5,False
+7,1,9/9/2015,Gregg Turkington|Tim Heidecker,fgoanR8BAMA,259123,3606,73,Fantastic Four,2015,1502712,4.3,100,Miles Teller|Michael B. Jordan|Kate Mara|Jamie Bell|Toby Kebbell,150840,False,NA,False,6,False
+7,1,9/9/2015,Gregg Turkington|Tim Heidecker,fgoanR8BAMA,259123,3606,73,Ant-Man,2015,0478970,7.3,117,Paul Rudd|Michael Douglas|Evangeline Lilly|Corey Stoll|Bobby Cannavale,561589,False,NA,False,1,False
+7,2,9/16/2015,Gregg Turkington|Tim Heidecker,JszcIgBV_MI,170006,1466,33,Maze Runner: The Scorch Trials,2015,4046784,6.3,131,Dylan O'Brien|Ki Hong Lee|Kaya Scodelario|Thomas Brodie-Sangster|Dexter Darden,218866,False,5,False,5,False
+7,2,9/16/2015,Gregg Turkington|Tim Heidecker,JszcIgBV_MI,170006,1466,33,Black Mass,2015,1355683,6.9,123,Johnny Depp|Joel Edgerton|Benedict Cumberbatch|Dakota Johnson|Kevin Bacon,166469,False,5,False,5,False
+7,3,9/23/2015,Gregg Turkington|Tim Heidecker,Hvu9d4OAsXg,157539,1804,33,The Intern,2015,2361509,7.1,121,Robert De Niro|Anne Hathaway|Rene Russo|Anders Holm|JoJo Kushner,216751,False,NA,NA,NA,NA
+7,3,9/23/2015,Gregg Turkington|Tim Heidecker,Hvu9d4OAsXg,157539,1804,33,Hotel Transylvania 2,2015,2510894,6.7,89,Adam Sandler|Andy Samberg|Selena Gomez|Kevin James|Steve Buscemi,105921,False,NA,NA,NA,NA
+7,4,9/30/2015,Gregg Turkington|Luther Sanchez|Tim Heidecker|Joe Estevez,uim2th2Hm78,193083,1950,47,The Martian,2015,3659388,8.0,144,Matt Damon|Jessica Chastain|Kristen Wiig|Jeff Daniels|Michael Peña,750196,False,NA,NA,NA,NA
+7,4,9/30/2015,Gregg Turkington|Luther Sanchez|Tim Heidecker|Joe Estevez,uim2th2Hm78,193083,1950,47,Sicario,2015,3397884,7.6,121,Emily Blunt|Benicio Del Toro|Josh Brolin|Victor Garber|Jon Bernthal,366027,False,NA,NA,NA,NA
+7,5,10/7/2015,Gregg Turkington|Tim Heidecker,gaQbGCg7_Mw,199225,1885,56,Pan,2015,3332064,5.7,111,Hugh Jackman|Levi Miller|Garrett Hedlund|Rooney Mara|Adeel Akhtar,59838,False,5,False,5,False
+7,5,10/7/2015,Gregg Turkington|Tim Heidecker,gaQbGCg7_Mw,199225,1885,56,Steve Jobs,2015,2080374,7.2,122,Michael Fassbender|Kate Winslet|Seth Rogen|Jeff Daniels|Michael Stuhlbarg,152543,False,5,False,5,False
+7,6,10/14/2015,Gregg Turkington|Tim Heidecker,EbrnM36GspY,181541,1987,51,Goosebumps,2015,1051904,6.3,103,Jack Black|Dylan Minnette|Odeya Rush|Ryan Lee|Amy Ryan,80023,False,5,False,5,False
+7,6,10/14/2015,Gregg Turkington|Tim Heidecker,EbrnM36GspY,181541,1987,51,Bridge of Spies,2015,3682448,7.6,142,Mark Rylance|Domenick Lombardozzi|Victor Verhaeghe|Mark Fichera|Brian Hutchison,284284,True,5,False,5,False
+7,7,10/21/2015,Gregg Turkington|Tim Heidecker,cuORvss1ovo,169047,1979,62,Paranormal Activity: The Ghost Dimension,2015,2473510,4.6,88,Chris J. Murray|Brit Shaw|Ivy George|Dan Gill|Olivia Taylor Dudley,24769,False,NA,False,NA,False
+7,7,10/21/2015,Gregg Turkington|Tim Heidecker,cuORvss1ovo,169047,1979,62,Jem and the Holograms,2015,3614530,4.2,118,Aubrey Peeples|Stefanie Scott|Aurora Perrineau|Hayley Kiyoko|Molly Ringwald,7291,False,5,False,5,False
+7,8,10/28/2015,Axiom Serradimigni|Tim Heidecker,7-2jpmg-fSw,93037,932,799,Autobahn,2016,2126235,5.7,99,Nicholas Hoult|Felicity Jones|Anthony Hopkins|Ben Kingsley|Marwan Kenzari,14812,False,NA,NA,NA,False
+7,8,10/28/2015,Axiom Serradimigni|Tim Heidecker,7-2jpmg-fSw,93037,932,799,Scouts Guide to the Zombie Apocalypse,2015,1727776,6.3,93,Tye Sheridan|Logan Miller|Joey Morgan|Sarah Dumont|David Koechner,44802,False,NA,NA,5,False
+7,9,11/5/2015,Gregg Turkington,rYhc3na7j0k,140075,1965,57,The Peanuts Movie,2015,2452042,7.1,88,Trombone Shorty|Rebecca Bloom|Anastasia Bredikhina|Francesca Capaldi|Kristin Chenoweth,41895,False,5,False,5,False
+7,9,11/5/2015,Gregg Turkington,rYhc3na7j0k,140075,1965,57,Spectre,2015,2379713,6.8,148,Daniel Craig|Christoph Waltz|Léa Seydoux|Ralph Fiennes|Monica Bellucci,380477,True,5,True,5,False
+7,10,11/12/2015,Axiom Serradimigni|Gregg Turkington|Luther Sanchez|Tim Heidecker,GFpbLvUwF4g,178490,2286,34,By the Sea,2015,3707106,5.3,122,Brad Pitt|Angelina Jolie|Mélanie Laurent|Melvil Poupaud|Niels Arestrup,18461,False,5,False,NA,False
+7,10,11/12/2015,Axiom Serradimigni|Gregg Turkington|Luther Sanchez|Tim Heidecker,GFpbLvUwF4g,178490,2286,34,Rings,2017,0498381,4.5,102,Matilda Anna Ingrid Lutz|Alex Roe|Johnny Galecki|Vincent D'Onofrio|Aimee Teegarden,37484,False,NA,False,NA,False
+8,1,7/27/2016,Gregg Turkington|Tim Heidecker,RpMjjx-m-BM,290801,3024,92,Star Trek: Beyond,2016,2660888,7.1,122,Chris Pine|Zachary Quinto|Karl Urban|Zoe Saldana|Simon Pegg,225664,False,5,False,6,False
+8,1,7/27/2016,Gregg Turkington|Tim Heidecker,RpMjjx-m-BM,290801,3024,92,Hillary's America: The Secret History of the Democratic Party,2016,5646136,5.3,106,Dinesh D'Souza|Jonah Goldberg|David Guyette|Andrea Cohen|Peter Schweizer,6857,False,5,False,6,True
+8,2,8/3/2016,Gregg Turkington|Luther Sanchez|Tim Heidecker,i2YyYQfZetk,262014,2437,56,Jason Bourne,2016,4196776,6.6,123,Matt Damon|Tommy Lee Jones|Alicia Vikander|Vincent Cassel|Julia Stiles,206149,False,5,False,5,False
+8,2,8/3/2016,Gregg Turkington|Luther Sanchez|Tim Heidecker,i2YyYQfZetk,262014,2437,56,Café Society,2016,4513674,6.6,96,Steve Carell|Sheryl Lee|Todd Weeks|Paul Schackman|Jodi Carlisle,70181,False,5,True,5,True
+8,3,8/10/2016,Gregg Turkington|Tim Heidecker,5FQu_8qQBN4,430554,4594,123,Nine Lives,2016,4383594,5.3,87,Kevin Spacey|Jennifer Garner|Robbie Amell|Cheryl Hines|Mark Consuelos,20715,False,5,False,5,False
+8,3,8/10/2016,Gregg Turkington|Tim Heidecker,5FQu_8qQBN4,430554,4594,123,Suicide Squad,2016,1386697,6.0,123,Will Smith|Jaime FitzSimons|Ike Barinholtz|Margot Robbie|Christopher Dyson,593332,True,5,False,5,False
+8,4,8/17/2016,Gregg Turkington|Tim Heidecker,UqqYpUmtgLg,268724,2757,59,Sausage Party,2016,1700841,6.1,89,Alistair Abell|Iris Apatow|Sugar Lyn Beard|Michael Cera|Ian James Corlett,173924,False,NA,False,5,False
+8,4,8/17/2016,Gregg Turkington|Tim Heidecker,UqqYpUmtgLg,268724,2757,59,Pete's Dragon,2016,2788732,6.7,102,Bryce Dallas Howard|Robert Redford|Oakes Fegley|Oona Laurence|Wes Bentley,53508,False,5,False,5,False
+8,5,8/24/2016,Axiom Serradimigni|Gregg Turkington|Mark Proksch|Tim Heidecker,NMl3xpNbTjA,225447,2066,53,Ben-Hur,2016,2638144,5.7,123,Jack Huston|Toby Kebbell|Rodrigo Santoro|Nazanin Boniadi|Ayelet Zurer,41174,False,5,True,5,False
+8,5,8/24/2016,Axiom Serradimigni|Gregg Turkington|Mark Proksch|Tim Heidecker,NMl3xpNbTjA,225447,2066,53,Kubo and the Two Strings,2016,4302938,7.8,101,Art Parkinson|Charlize Theron|Brenda Vaccaro|Cary-Hiroyuki Tagawa|Meyrick Murphy,116595,False,5,False,NA,False
+8,6,8/31/2016,Gregg Turkington|Tim Heidecker,IQtNboS3Eh8,178147,2111,41,Hands of Stone,2016,1781827,6.6,111,Edgar Ramírez|Robert De Niro|Usher|Rubén Blades|Ana de Armas,14846,False,5,True,5,False
+8,6,8/31/2016,Gregg Turkington|Tim Heidecker,IQtNboS3Eh8,178147,2111,41,Mechanic: Resurrection,2016,3522806,5.7,98,Jason Statham|Jessica Alba|Tommy Lee Jones|Michelle Yeoh|Sam Hazeldine,75380,False,5,False,5,False
+8,7,9/7/2016,Gregg Turkington|Mark Proksch,Qb3kMeOxCAQ,156677,1829,31,The Light Between Oceans,2016,2547584,7.2,133,Michael Fassbender|Alicia Vikander|Rachel Weisz|Florence Clery|Jack Thompson,51312,False,5,False,NA,NA
+8,7,9/7/2016,Gregg Turkington|Mark Proksch,Qb3kMeOxCAQ,156677,1829,31,Solace,2015,1291570,6.4,101,Anthony Hopkins|Jeffrey Dean Morgan|Abbie Cornish|Colin Farrell|Matt Gerald,55336,False,5,False,NA,NA
+8,8,9/14/2016,Axiom Serradimigni|Ayaka Ohwaki|Gregg Turkington|John Aprea|Mark Proksch|Mister Ohwaki|Tim Heidecker|Joe Estevez,7r6qgKD-m8U,172240,2327,44,Sully,2016,3263904,7.4,96,Tom Hanks|Aaron Eckhart|Valerie Mahaffey|Delphi Harrington|Mike O'Malley,233728,False,NA,NA,NA,NA
+8,8,9/14/2016,Axiom Serradimigni|Ayaka Ohwaki|Gregg Turkington|John Aprea|Mark Proksch|Mister Ohwaki|Tim Heidecker|Joe Estevez,7r6qgKD-m8U,172240,2327,44,When the Bough Breaks,2016,1389139,5.1,107,Morris Chestnut|Regina Hall|Romany Malco|Michael Kenneth Williams|Glenn Morshower,5785,False,NA,NA,NA,NA
+8,9,9/21/2016,Gregg Turkington|Tim Heidecker,m7XQZnBDJKY,163074,1894,35,Bridget Jones's Baby,2016,1473832,6.5,123,Renée Zellweger|Gemma Jones|Jim Broadbent|Sally Phillips|Julian Rhind-Tutt,67429,False,5,False,5,False
+8,9,9/21/2016,Gregg Turkington|Tim Heidecker,m7XQZnBDJKY,163074,1894,35,Snowden,2016,3774114,7.3,134,Melissa Leo|Zachary Quinto|Joseph Gordon-Levitt|Jaymes Butler|Robert Firth,135360,False,5,False,0,False
+8,10,9/28/2016,Gregg Turkington|Tim Heidecker,gZNF7-v-qGA,167250,2088,38,The Magnificent Seven,2016,2404435,6.9,132,Denzel Washington|Chris Pratt|Ethan Hawke|Vincent D'Onofrio|Lee Byung-Hun,183225,False,5,False,5,False
+8,10,9/28/2016,Gregg Turkington|Tim Heidecker,gZNF7-v-qGA,167250,2088,38,Storks,2016,4624424,6.8,87,Andy Samberg|Katie Crown|Kelsey Grammer|Jennifer Aniston|Ty Burrell,55412,False,5,False,5,False
+9,1,3/6/2017,Gregg Turkington|Mark Proksch|Tim Heidecker,OU0TaprKPRc,172495,1945,70,The Wall,2017,4218696,6.2,88,Aaron Taylor-Johnson|John Cena|Laith Nakli,23673,False,5,False,5,False
+9,1,3/6/2017,Gregg Turkington|Mark Proksch|Tim Heidecker,OU0TaprKPRc,172495,1945,70,Kong: Skull Island,2017,3731562,6.6,118,Tom Hiddleston|Samuel L. Jackson|Brie Larson|John C. Reilly|John Goodman,264999,False,5,False,5,False
+9,2,3/13/2017,Gregg Turkington|John Lenard|Mark Proksch|Tim Heidecker,anEU1fPn8JI,127740,1351,71,T2 Trainspotting,2017,2763304,7.2,117,Ewan McGregor|Logan Gillies|Ben Skelton|Aiden Haggarty|Daniel Smith,111960,False,5,False,5,False
+9,2,3/13/2017,Gregg Turkington|John Lenard|Mark Proksch|Tim Heidecker,anEU1fPn8JI,127740,1351,71,The Belko Experiment,2016,1082807,6.1,89,John Gallagher Jr.|Tony Goldwyn|Adria Arjona|John C. McGinley|Melonie Diaz,43542,False,5,False,NA,False
+9,3,3/20/2017,Gregg Turkington|Mark Proksch|Tim Heidecker,wRGvQosfuos,135174,1381,58,Power Rangers,2017,3717490,5.9,124,Dacre Montgomery|Naomi Scott|RJ Cyler|Ludi Lin|Becky G,100812,False,NA,False,5,True
+9,3,3/20/2017,Gregg Turkington|Mark Proksch|Tim Heidecker,wRGvQosfuos,135174,1381,58,CHIPS,2017,0493405,6.0,100,Michael Peña|Dax Shepard|Vincent D'Onofrio|Rosa Salazar|Jessica McNamee,42042,False,5,False,5,False
+9,4,3/27/2017,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Mark Proksch|Tim Heidecker,37fPcXtoIUk,121013,1354,43,The Boss Baby,2017,3874544,6.3,97,Alec Baldwin|Steve Buscemi|Jimmy Kimmel|Lisa Kudrow|Tobey Maguire,106870,False,5,False,5,False
+9,4,3/27/2017,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Mark Proksch|Tim Heidecker,37fPcXtoIUk,121013,1354,43,The Zookeeper's Wife,2017,1730768,7.0,127,Jessica Chastain|Johan Heldenbergh|Daniel Brühl|Timothy Radford|Efrat Dor,38073,False,5,False,NA,False
+9,5,4/3/2017,Gregg Turkington|Juliana Serradimigni|Manuel Giusti|Mark Proksch|Tim Heidecker,KiEfjXD-KwE,119742,1334,30,The Case for Christ,2017,6113488,6.3,112,Erika Christensen|Faye Dunaway|Frankie Faison|Robert Forster|Brett Rice,7683,False,5,False,5,False
+9,5,4/3/2017,Gregg Turkington|Juliana Serradimigni|Manuel Giusti|Mark Proksch|Tim Heidecker,KiEfjXD-KwE,119742,1334,30,Smurfs: The Lost Village,2017,2398241,6.0,90,Demi Lovato|Rainn Wilson|Joe Manganiello|Jack McBrayer|Danny Pudi,18155,False,5,False,5,False
+9,6,4/10/2017,Gregg Turkington|Mark Proksch|Luther Sanchez|Tim Heidecker,1xkShGA6IQs,134465,1415,54,Fast & Furious 8,2017,4630562,6.7,136,Vin Diesel|Jason Statham|Dwayne Johnson|Michelle Rodriguez|Tyrese Gibson,201898,False,5,False,NA,False
+9,6,4/10/2017,Gregg Turkington|Mark Proksch|Luther Sanchez|Tim Heidecker,1xkShGA6IQs,134465,1415,54,The Lost City of Z,2016,1212428,6.6,141,Charlie Hunnam|Robert Pattinson|Sienna Miller|Tom Holland|Edward Ashley,77573,False,5,True,5,True
+9,7,4/17/2017,Gregg Turkington|Mark Proksch,QFdzuCNLEfs,133399,1796,73,Unforgettable,2017,3462710,5.1,100,Rosario Dawson|Katherine Heigl|Geoff Stults|Isabella Kai|Alex Quijano,13786,False,NA,NA,NA,NA
+9,7,4/17/2017,Gregg Turkington|Mark Proksch,QFdzuCNLEfs,133399,1796,73,Born in China,2016,4629266,7.2,79,John Krasinski|Claire Keim|Xun Zhou,3479,False,NA,NA,NA,NA
+9,7,4/17/2017,Gregg Turkington|Mark Proksch,QFdzuCNLEfs,133399,1796,73,Animal Crackers,2017,4155534,5.8,105,Emily Blunt|Danny DeVito|John Krasinski|Ian McKellen|Raven-Symoné,2255,False,NA,NA,NA,NA
+9,8,4/24/2017,Gregg Turkington|Mark Proksch|Tim Heidecker|Joe Estevez,XWzt9NRe8Ac,107836,1380,38,How to Be a Latin Lover,2017,4795124,6.0,115,Eugenio Derbez|Salma Hayek|Raphael Alejandro|Rob Lowe|Kristen Bell,13836,False,5,False,NA,NA
+9,8,4/24/2017,Gregg Turkington|Mark Proksch|Tim Heidecker|Joe Estevez,XWzt9NRe8Ac,107836,1380,38,The Circle,2017,4287320,5.3,110,Emma Watson|Ellar Coltrane|Glenne Headly|Bill Paxton|Karen Gillan,83220,False,5,False,NA,NA
+9,9,5/1/2017,Gregg Turkington|Tim Heidecker,2j33hkDxYTs,124640,1352,52,Guardians of the Galaxy Vol. 2,2017,3896198,7.6,136,Chris Pratt|Zoe Saldana|Dave Bautista|Vin Diesel|Bradley Cooper,559848,False,5,False,5,False
+9,9,5/1/2017,Gregg Turkington|Tim Heidecker,2j33hkDxYTs,124640,1352,52,The Lovers,2017,5770620,6.1,97,Debra Winger|Tracy Letts|Aidan Gillen|Melora Walters|Tyler Ross,3398,False,5,False,NA,False
+9,10,5/8/2017,Gregg Turkington|Tim Heidecker,LCvM2IXg0lM,132415,1688,75,King Arthur: Legend of the Sword,2017,1972591,6.7,126,Charlie Hunnam|Astrid Bergès-Frisbey|Jude Law|Djimon Hounsou|Eric Bana,189461,False,5,True,5,False
+9,10,5/8/2017,Gregg Turkington|Tim Heidecker,LCvM2IXg0lM,132415,1688,75,Snatched,2017,2334871,4.5,90,Amy Schumer|Kim Caramele|Raven Goodwin|Katie Dippold|Randall Park,32816,False,5,False,4,False
+10,1,3/22/2018,Gregg Turkington|Tim Heidecker,saGMEd_02t8,323523,5297,200,Pacific Rim: Uprising,2018,2557478,5.6,111,John Boyega|Scott Eastwood|Cailee Spaeny|Burn Gorman|Charlie Day,104599,False,5,False,5,False
+10,1,3/22/2018,Gregg Turkington|Tim Heidecker,saGMEd_02t8,323523,5297,200,Sherlock Gnomes,2018,2296777,5.2,86,Kelly Asbury|Mary J. Blige|Emily Blunt|Julio Bonet|Gary Bradbury,10124,False,5,False,5,False
+10,2,3/28/2018,Gregg Turkington|Tim Heidecker,tnPZtftH1F8,201378,2614,113,Acrimony,2018,6063050,5.8,120,Taraji P. Henson|Lyriq Bent|Crystle Stewart|Jazmyn Simon|Ptosha Storey,7747,False,5,True,5,True
+10,2,3/28/2018,Gregg Turkington|Tim Heidecker,tnPZtftH1F8,201378,2614,113,Ready Player One,2018,1677720,7.5,140,Tye Sheridan|Olivia Cooke|Ben Mendelsohn|Lena Waithe|T.J. Miller,361390,False,5,False,5,False
+10,3,4/6/2018,Gregg Turkington|Mark Proksch|Max Eucompco|Tim Heidecker,nY5XVaneJhw,221052,2630,95,You Were Never Really Here,2017,5742374,6.8,89,Joaquin Phoenix|Dante Pereira-Olson|Larry Canady|Vinicius Damasceno|Neo Randall,101525,False,5,False,5,False
+10,3,4/6/2018,Gregg Turkington|Mark Proksch|Max Eucompco|Tim Heidecker,nY5XVaneJhw,221052,2630,95,Chappaquiddick,2017,5270948,6.4,106,Jason Clarke|Kate Mara|Ed Helms|Bruce Dern|Jim Gaffigan,11804,False,5,False,5,False
+10,4,4/12/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,H9HXh5ZYkn4,157124,2301,75,Sgt. Stubby: An American Hero,2018,5314190,6.9,84,Logan Lerman|Helena Bonham Carter|Gérard Depardieu|Jordan Beck|Jim Pharr,1897,False,5,False,5,False
+10,4,4/12/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,H9HXh5ZYkn4,157124,2301,75,Overboard,2018,1563742,6.0,112,Eugenio Derbez|Anna Faris|Eva Longoria|John Hannah|Swoosie Kurtz,33833,False,5,False,5,False
+10,5,4/19/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,fU-bU8MIeUs,152655,2053,97,Super Troopers 2,2018,0859635,6.1,100,Seann William Scott|Clifton Collins Jr.|Steve Lemme|Erik Stolhanske|Jay Chandrasekhar,23608,False,5,False,5,False
+10,5,4/19/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,fU-bU8MIeUs,152655,2053,97,Rampage,2018,2231461,6.1,107,Dwayne Johnson|Naomie Harris|Malin Akerman|Jeffrey Dean Morgan|Jake Lacy,141134,False,5,False,5,False
+10,6,4/26/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,OGgGA3XCFLY,135147,1755,60,Traffik,2018,5670152,6.0,96,Priscilla Quintana|Luke Goss|Paula Patton|William Fichtner|Jeff Wiesen,18321,False,5,False,NA,False
+10,7,5/3/2018,Gregg Turkington|Tim Heidecker|Joe Estevez,83mWOlEqvk4,421616,5635,273,Avengers: Infinity War,2018,4154756,8.4,149,Robert Downey Jr.|Chris Hemsworth|Mark Ruffalo|Chris Evans|Scarlett Johansson,814685,False,5,False,5,False
+10,8,5/10/2018,Gregg Turkington|Tim Heidecker,nvMA_jKlQ_o,164846,2223,51,Life of the Party,2018,5619332,5.6,105,Melissa McCarthy|Matt Walsh|Molly Gordon|Ben Falcone|Jacki Weaver,32873,False,5,True,5,False
+10,8,5/10/2018,Gregg Turkington|Tim Heidecker,nvMA_jKlQ_o,164846,2223,51,Breaking In,2018,7137846,5.4,88,Gabrielle Union|Billy Burke|Richard Cabral|Ajiona Alexus|Levi Meaden,13994,False,5,False,NA,False
+10,9,5/17/2018,Gregg Turkington|Mark Proksch|Tim Heidecker,XYReLQBKo50,149009,2335,126,Show Dogs,2018,5691024,3.8,92,Will Arnett|Ludacris|Natasha Lyonne|Stanley Tucci|Jordin Sparks Thomas,4136,False,5,False,NA,False
+10,9,5/17/2018,Gregg Turkington|Mark Proksch|Tim Heidecker,XYReLQBKo50,149009,2335,126,Deadpool 2,2018,5463162,7.7,119,Ryan Reynolds|Josh Brolin|Morena Baccarin|Julian Dennison|Zazie Beetz,469541,False,5,False,NA,False
+10,10,5/25/2018,Gregg Turkington|Tim Heidecker,m1a1sLe1W3w,185360,3627,97,Solo: A Star Wars Story,2018,3778644,6.9,135,Alden Ehrenreich|Joonas Suotamo|Woody Harrelson|Emilia Clarke|Donald Glover,284053,False,NA,False,NA,False
+11,1,9/25/2019,Gregg Turkington|Tim Heidecker,TkftGABKsnU,166703,4772,67,Abominable,2019,6324278,7.0,97,Chloe Bennet|Albert Tsai|Tenzing Norgay Trainor|Joseph Izzo|Sarah Paulson,27737,False,5,False,5,False
+11,1,9/25/2019,Gregg Turkington|Tim Heidecker,TkftGABKsnU,166703,4772,67,Judy,2019,7549996,6.8,118,Renée Zellweger|Jessie Buckley|Finn Wittrock|Rufus Sewell|Michael Gambon,38610,True,5,False,5,True
+11,2,10/2/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,G5vfOMSA-H8,219782,5393,203,Joker,2019,7286456,8.5,122,Joaquin Phoenix|Robert De Niro|Zazie Beetz|Frances Conroy|Brett Cullen,899910,True,5,True,6,True
+11,2,10/2/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,G5vfOMSA-H8,219782,5393,203,The Current War,2017,2140507,6.5,108,Benedict Cumberbatch|Oliver Powell|Sophia Ally|Tuppence Middleton|Woody Norman,18647,False,NA,NA,NA,NA
+11,3,10/9/2019,Gregg Turkington|Tim Heidecker|Joe Estevez|Josh Lorton,qmkZDFggYZE,140296,3280,57,Gemini Man,2019,1025100,5.7,117,Will Smith|Mary Elizabeth Winstead|Clive Owen|Benedict Wong|Douglas Hodge,82315,False,4,False,5,False
+11,3,10/9/2019,Gregg Turkington|Tim Heidecker|Joe Estevez|Josh Lorton,qmkZDFggYZE,140296,3280,57,The Addams Family,2019,1620981,5.8,86,Oscar Isaac|Charlize Theron|Chloë Grace Moretz|Finn Wolfhard|Nick Kroll,27398,False,5,False,NA,False
+11,4,10/16/2019,Gregg Turkington|Tim Heidecker|Michael Matthews|Josh Lorton,RAMs41nvta8,102042,2400,53,Mister America,2019,10579992,6.5,89,Tim Heidecker|Gregg Turkington|Terri Parks|Curtis Webster|Don Pecchia,1046,False,3,False,0,False
+11,4,10/16/2019,Gregg Turkington|Tim Heidecker|Michael Matthews|Josh Lorton,RAMs41nvta8,102042,2400,53,Maleficent: Mistress of Evil,2019,4777008,6.6,119,Angelina Jolie|Elle Fanning|Harris Dickinson|Michelle Pfeiffer|Sam Riley,81484,False,5,False,5,False
+11,5,10/23/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,zJXuik5QQ7A,102045,2279,34,The Last Full Measure,2018,0783640,6.7,116,Sebastian Stan|Alison Sudol|Asher Miles Fallica|LisaGay Hamilton|Bradley Whitford,6853,False,NA,NA,NA,NA
+11,5,10/23/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,zJXuik5QQ7A,102045,2279,34,Black and Blue,2019,7390646,6.4,108,Naomie Harris|Tyrese Gibson|Frank Grillo|Mike Colter|Reid Scott,15402,False,NA,NA,NA,NA
+11,6,10/30/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,ciX-tauchQs,106252,2223,54,Terminator: Dark Fate,2019,6450804,6.2,128,Linda Hamilton|Arnold Schwarzenegger|Mackenzie Davis|Natalia Reyes|Gabriel Luna,144192,False,5,False,5,True
+11,6,10/30/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,ciX-tauchQs,106252,2223,54,Motherless Brooklyn,2019,0385887,6.8,144,Edward Norton|Gugu Mbatha-Raw|Alec Baldwin|Willem Dafoe|Bruce Willis,39524,False,5,False,5,False
+11,7,11/6/2019,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Tim Heidecker|Michael Matthews,tgPsYWyZCgc,103833,2442,44,Arctic Dogs,2019,4426464,4.6,92,Jeremy Renner|Heidi Klum|James Franco|John Cleese|Omar Sy,1317,False,5,False,5,False
+11,7,11/6/2019,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Tim Heidecker|Michael Matthews,tgPsYWyZCgc,103833,2442,44,Midway,2019,6924650,6.7,138,Ed Skrein|Patrick Wilson|Woody Harrelson|Luke Evans|Mandy Moore,62671,False,5,False,5,False
+11,8,11/13/2019,Gregg Turkington|Mark Proksch|Tim Heidecker|Toni Newman,HE0pBci6wVY,100926,2213,53,Charlie's Angels,2019,5033998,4.8,118,Kristen Stewart|Naomi Scott|Ella Balinska|Elizabeth Banks|Patrick Stewart,54252,False,NA,NA,5,False
+11,8,11/13/2019,Gregg Turkington|Mark Proksch|Tim Heidecker|Toni Newman,HE0pBci6wVY,100926,2213,53,The Report,2019,8236336,7.2,119,Adam Driver|Corey Stoll|Evander Duck Jr.|Jon Hamm|Linda Powell,31605,False,NA,NA,NA,NA
+11,9,11/20/2019,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Tim Heidecker|Joe Estevez|Toni Newman,-s1y1WFrawU,100268,2166,39,Frozen II,2019,4520988,6.9,103,Kristen Bell|Idina Menzel|Josh Gad|Jonathan Groff|Sterling K. Brown,129919,False,5,False,NA,NA
+11,9,11/20/2019,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Tim Heidecker|Joe Estevez|Toni Newman,-s1y1WFrawU,100268,2166,39,21 Bridges,2019,8688634,6.6,99,Chadwick Boseman|Sienna Miller|J.K. Simmons|Stephan James|Taylor Kitsch,45616,False,5,False,NA,NA
+11,10,11/27/2019,Gregg Turkington|Tim Heidecker|Toni Newman,EInX_lIWpEU,100251,2339,46,Knives Out,2019,8946378,7.9,130,Daniel Craig|Chris Evans|Ana de Armas|Jamie Lee Curtis|Michael Shannon,418999,False,NA,NA,NA,NA
+11,10,11/27/2019,Gregg Turkington|Tim Heidecker|Toni Newman,EInX_lIWpEU,100251,2339,46,Queen & Slim,2019,8722346,7.1,132,Daniel Kaluuya|Jodie Turner-Smith|Bokeem Woodbine|Chloë Sevigny|Flea,21867,False,NA,NA,NA,NA
