@@ -6,11 +6,12 @@ library(sandwich)
 library(lmtest)
 library(broom)
 
-data <- read.csv("data.csv")
+data <- read.csv("movie_reviews.csv")
 data <- data %>% mutate(airdate = as.Date(airdate,format="%m/%d/%Y"),
                         imdb_rating_scaled = imdb_rating / 2,
                         like_percentage = like_count / (like_count + dislike_count),
                         host_count = str_count(hosts, "\\|") + 1,
+                        index = 10 * (season - 1) + episode,
                         season = ordered(season),
                         episode = ordered(episode))
 
