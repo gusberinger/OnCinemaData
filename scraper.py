@@ -50,14 +50,22 @@ class Episode:
         self.like_count = youtube_statistics['likeCount']
         self.dislike_count = youtube_statistics['dislikeCount']
 
+    def get_movies(self):
+        movies = self.soup.find("div", "episode-movies").find_all("div", recursive = False)
+        self.movies = [Movie(soup) for soup in movies]
+        for movie in self.movies:
+            movie.get_imdb()
+            movie.get_reviews()
+
     def get_classics(self):
         classics = self.soup.find("div", class_ = "classics")
         if not classics:
             print("test")
             return None
         self.classics = [Movie(soup) for soup in classics.find_all("div", recursive = False)]
+        for movie in self.classics:
+            movie.get_imdb()
         print(self.classics)
-
 
     location_header = ",latitude,longitude,quote,movie,year,cover_url"
     def get_locations(self):
@@ -70,6 +78,21 @@ class Episode:
         self.location_movie = Movie(location)
         print(self.location_movie)
 
+    def review_rows(self):
+        self.get_movies()
+        for movie in self.movies:
+            movie.get_reviews()
+            yield self.episode_csv() + movie.movie_csv() + movie.review_csv()
+ 
+    def classics_rows(self):
+        self.get_classics()
+        try:
+            for classic in self.classics:
+                yield self.episode_csv() + classic.movie_csv()
+        except AttributeError:
+            pass
+    
+            
     def location_row(self):
         self.get_locations()
         try:
@@ -78,18 +101,10 @@ class Episode:
             print("exists")
         except AttributeError:
             return self.episode_csv() + ["NA"] * 5
-    
-            
-        
-        
-    def get_movies(self):
-        movies = self.soup.find("div", "episode-movies").find_all("div", recursive = False)
-        self.movies = [Movie(soup) for soup in movies]
-        for movie in self.movies:
-            movie.get_imdb()
-
+           
     header = "season,episode,airdate,hosts,youtube_id,view_count,like_count,dislike_count"
     def episode_csv(self):
+        """Generic episode information regardless of segment"""
         return [self.season, self.episode, self.airdate, self.hosts,
                 self.youtube_id, self.view_count, self.like_count, self.dislike_count]
 
@@ -111,16 +126,16 @@ class Movie:
         
     def get_reviews(self):
         self.reviews = {}
-        reviews_soup = soup.find("div", class_= "row reviews").find_all("div", class_ = "review-info")
+        reviews_soup = self.soup.find("div", class_= "row reviews").find_all("div", class_ = "review-info")
         # go up two levels to get oscar information
         reviews_soup = [x.parent.parent for x in reviews_soup]
 
         for review in reviews_soup:
             author = review.find("p", class_ = "title").text
             author = re.match(r"(\w+)'s Review", author).group(1)
-            self.reviews[author] = self.build_review_db(review)
+            self.reviews[author] = self.__build_review_db__(review)
 
-    def build_review_db(self, review):
+    def __build_review_db__(self, review):
         """Build a database of information for a review"""
         db = {}
         # the rating does not necessarily exist
@@ -169,12 +184,16 @@ class Movie:
             print(self.year)
             print(f"http://imdb.com/title/tt{self.imdb_id}")
 
-    movie_header = ",movie,year,imdb_id,imdb_rating,runtime,imdb_cast,imdb_votes"
-    review_header = ",oscar_winner,gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
-    def review_csv(self):
-        master = [self.title, self.year, self.cover_url, self.imdb_id, self.imdb_rating, self.runtime, self.imdb_cast, self.imdb_votes, self.oscar_winner]
+    header = ",movie,year,cover_url,imdb_id,imdb_rating,runtime,imdb_cast,imdb_votes,oscar_winner"
+    review_header = ",gregg_popcorn,gregg_oscar,tim_popcorn,tim_oscar"
 
+    def movie_csv(self):
+        return [self.title, self.year, self.cover_url, self.imdb_id, self.imdb_rating, self.runtime, self.imdb_cast, self.imdb_votes, self.oscar_winner]
+
+    
+    def review_csv(self):
         # not all movies have reviews from Gregg and Tim
+        master = []
         try:
             master += [self.reviews['Gregg']['popcorn'], self.reviews['Gregg']['oscar']]
         except KeyError:
@@ -184,7 +203,6 @@ class Movie:
             master += [self.reviews['Tim']['popcorn'], self.reviews['Tim']['oscar']]
         except KeyError:
             master += ["NA", "NA"]
-
         return master
 
 if __name__ == "__main__":
