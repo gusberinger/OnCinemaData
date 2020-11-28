@@ -4,9 +4,7 @@ library(splitstackshape)
 library(car)
 library(sandwich)
 library(lmtest)
-library(stringr)
 library(broom)
-library(tidyselect)
 
 data <- read.csv("data.csv")
 data <- data %>% mutate(airdate = as.Date(airdate,format="%m/%d/%Y"),
