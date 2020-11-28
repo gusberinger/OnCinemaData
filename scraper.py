@@ -109,10 +109,6 @@ class Episode:
                 self.youtube_id, self.view_count, self.like_count, self.dislike_count]
 
 
-    
-
-
-
 class Movie:
     def __init__(self, soup):
         self.soup = soup
