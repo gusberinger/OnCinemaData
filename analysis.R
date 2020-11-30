@@ -6,16 +6,15 @@ library(sandwich)
 library(lmtest)
 library(broom)
 
-data <- read.csv("movie_reviews.csv")
-data <- data %>% mutate(airdate = as.Date(airdate,format="%m/%d/%Y"),
-                        imdb_rating_scaled = imdb_rating / 2,
-                        like_percentage = like_count / (like_count + dislike_count),
-                        host_count = str_count(hosts, "\\|") + 1,
-                        index = 10 * (season - 1) + episode,
-                        season = ordered(season),
-                        episode = ordered(episode))
+movies <- read.csv("movie_reviews.csv", na.strings = "N/A")
+movies <- movies %>% mutate(Airdate = as.Date(Airdate,format="%m/%d/%Y"),
+                        imdbVotes = as.numeric(imdbVotes),
+                        imdbRatingScaled = imdbRating / 2,
+                        LikePercentage = LikeCount / (LikeCount + DislikeCount),
+                        HostCount = str_count(Hosts, "\\|") + 1,
+                        Index = 10 * (Season - 1) + Episode)
 
-data <- cSplit_e(data, "hosts", "|", type = "character", fill = 0, drop = T)
+movies <- cSplit_e(movies, "hosts", "|", type = "character", fill = 0, drop = T)
 
 
 # what are the most common actors in movies reviewed? -----------
@@ -24,6 +23,9 @@ data <- cSplit_e(data, "hosts", "|", type = "character", fill = 0, drop = T)
 
 cSplit_e(data, "imdb_cast", "|", type = "character", fill = 0, drop = T) %>%
   select(starts_with("imdb_cast")) %>% summarize_all(sum) %>% t %>% View
+
+cSplit_e(data, "Genre", ",", type = "character", fill = 0, drop = T) %>%
+  select(starts_with("Genre")) %>% summarize_all(sum) %>% t %>% as.data.frame %>% View
 
 # get rid of film data
 episodes <- data %>% select(-c(title:tim_oscar), -imdb_rating_scaled) %>%

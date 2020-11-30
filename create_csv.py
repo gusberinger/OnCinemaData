@@ -16,7 +16,7 @@ def build_movie_reviews():
     with open("movie_reviews.csv", "w") as f:
         f.write(Episode.header + Movie.header + Review.header + '\n')
         writer = csv.writer(f)
-        for season in range(11, 12):
+        for season in range(1, 12):
             for index in range(1, 11):
                 print(f"{season}-{index}")
                 episode = Episode(season, index)

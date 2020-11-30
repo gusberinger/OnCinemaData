@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import csv
 import json
+from difflib import SequenceMatcher
 
 with open("secrets/youtube_api.txt", "r") as f:
     youtube_key = f.read()
@@ -83,6 +84,12 @@ class Movie:
         self.soup = soup
         self.title = soup.find("p", class_ = "movie-title").text
         self.year = re.match(r"\d+", soup.find(text="Year: ").next).group()
+        # used to verify the omdb data
+        self.website_plot = soup.find("p", class_ = "plot").text
+        self.website_poster = soup.find("div", class_ = "movie-img").img.get("src")
+        # convert for omdb
+        if self.title == "Les Miserables":
+            self.title = "Les Misérables"
         if self.title == "Escape from Planet Earth":
             self.year = 2012
         elif self.title == "Scary Movie 5":
@@ -96,10 +103,27 @@ class Movie:
             self.title = "Collide"
         elif self.title == "The Last Full Measure":
             self.year = 2019
-        # url = f"http://www.omdbapi.com/?t={self.title}&y={self.year}&apikey={omdb_key}".encode('ascii', 'xmlcharrefreplace')
-        url = f"http://www.omdbapi.com/?t={self.title}&y={self.year}&apikey={omdb_key}"
-        print(url)
+        elif self.title == "Fast & Furious 8":
+            self.title = "The Fate of the Furious"
+
+        # download data
+        url = f"http://www.omdbapi.com/?t={self.title.replace('&', '%26')}&y={self.year}&apikey={omdb_key}"
+        # if self.title == "21 & Over":
+        #     url = f"http://www.omdbapi.com/?t=21+%26+Over&y=2013&apikey={omdb_key}"
         self.omdb = json.loads(requests.get(url).content)
+        try:
+            poster_id = re.compile(r"https://.*/images/M/([a-zA-Z0-9]+)")
+            website_poster_id = poster_id.match(self.website_poster).group(1)
+            omdb_poster_id = poster_id.match(self.omdb['Poster']).group(1)
+            assert(website_poster_id == omdb_poster_id or (SequenceMatcher(None, self.website_plot, self.omdb['Plot']).ratio() > .90))
+        except AssertionError:
+            print("-" * 10)
+            print(f"{self.title} ({self.year})")
+            print(website_poster_id)
+            print(omdb_poster_id)
+            print(self.omdb['Plot'])
+            print(self.website_plot)
+    
 
 
     def __get_reviews__(self):
@@ -126,7 +150,6 @@ class Movie:
 
     header = ",Movie,Year,imdbID,Released,Rated,Genre,Director,Actors,imdbRating,imdbVotes"
     def movie_csv(self):
-        print(self.title)
         return [self.title, self.year, self.omdb['imdbID'], self.omdb['Released'], self.omdb['Rated'],
                 self.omdb['Genre'], self.omdb['Director'], self.omdb['Actors'],
                 self.omdb['imdbRating'], self.omdb['imdbVotes']]
