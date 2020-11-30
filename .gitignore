@@ -1,5 +1,5 @@
 .Rdata
 .Rhistory
 __pycache__/
-api.txt
 pages/
+secrets/
