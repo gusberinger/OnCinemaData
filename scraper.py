@@ -62,7 +62,6 @@ class Episode:
         except AttributeError:
             pass
     
-            
     def location_row(self):
         self.get_locations()
         try:
@@ -123,7 +122,6 @@ class Movie:
             print(omdb_poster_id)
             print(self.omdb['Plot'])
             print(self.website_plot)
-    
 
 
     def __get_reviews__(self):
@@ -144,8 +142,6 @@ class Movie:
             else:
                 csv += ["NA"] * 2
         return csv
-
-
 
 
     header = ",Movie,Year,imdbID,Released,Rated,Genre,Director,Actors,imdbRating,imdbVotes"
