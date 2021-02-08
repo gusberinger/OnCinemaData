@@ -1,3 +1,7 @@
+"""
+Download all of the pages from oncinematimeline.com into pages/season-episode.html
+Then used to parse from parser.py
+"""
 import requests
 
 for season in range(1, 12):
