@@ -75,7 +75,7 @@ def review_info(soup):
     author_full = soup.find("p", class_ = "title").text
     review['author'] = re.match(r"(\w+)'s Review", author_full).group(1)
     if soup.find("p", class_ = "did-not-rate"):
-        review["popcorn"] = -1
+        review["popcorn"] = "NA"
     else:
         review_text = soup.find("p", class_ = "rating-summary").text
         popcorn = re.match(r"\d+", review_text)
@@ -84,11 +84,12 @@ def review_info(soup):
     return review
 
 
-all_episode_info = []
-for season in range(1, 2):
-    for episode_number in range(1, 11):
-        print(f"Parsing {season}-{episode_number}")
-        for row in epsiode_info(season, episode_number):
-            all_episode_info.append(row)
-df = pd.DataFrame(all_episode_info)
-df.to_csv("movie_reviews.csv", index = False)
+if __name__ == "__main__":
+    all_episode_info = []
+    for season in range(1, 12):
+        for episode_number in range(1, 11):
+            print(f"Parsing {season}-{episode_number}")
+            for row in epsiode_info(season, episode_number):
+                all_episode_info.append(row)
+    df = pd.DataFrame(all_episode_info)
+    df.to_csv("datasets/movie_reviews.csv", index = False)
