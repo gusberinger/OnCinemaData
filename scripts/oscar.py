@@ -1,3 +1,8 @@
+"""
+The wikipedia oscar data does not come with imdb links attach.
+This script uses the imdb package to search for the imdb ID. 
+"""
+
 import csv
 from imdb import IMDb
 from tqdm import tqdm
