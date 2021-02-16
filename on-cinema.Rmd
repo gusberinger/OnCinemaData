@@ -1,0 +1,67 @@
+---
+title: "On Cinema Data"
+output: html_notebook
+editor_options: 
+  chunk_output_type: console
+---
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+reviews <- read.csv("datasets/movie_reviews.csv") %>%
+  mutate(airdate = as.Date(airdate, "%m/%d/%Y"),
+         episode_number = row_number())
+as_tibble(reviews)
+```
+
+```{r}
+reviews %>%
+  filter(author %in% c("Tim", "Gregg")) %>%
+  filter(!is.na(popcorn)) %>%
+  ggplot(aes(index, popcorn, color = author)) + 
+  geom_jitter() +
+  geom_text(aes(label = Title), hjust = 1,
+            check_overlap = TRUE) +
+  scale_y_continuous(breaks = 0:7)
+```
+
+```{r}
+reviews %>%
+  filter(author %in% c("Tim", "Gregg")) %>%
+  ggplot(aes(popcorn, fill = author)) +
+  geom_density(alpha = .5)
+```
+
+```{r}
+reviews %>%
+  separate_rows(hosts, sep = "\\|")
+```
+
+```{r}
+episodes <- reviews %>%
+  select(season:commentCount, index) %>%
+  distinct()
+
+
+episodes %>%
+  mutate(label = paste(season, episode, sep = "-")) %>%
+  ggplot(aes(index, dislikeCount)) +
+  geom_point(aes(color = ordered(season))) +
+  geom_text(aes(label = label), hjust = 1,
+            check_overlap = TRUE)
+```
+
+```{r}
+episodes %>%
+  ggplot(aes(x = airdate, y = viewCount)) + 
+  geom_line(aes(color = factor))# +
+  scale_size_continuous(breaks = c(1,2,6))
+```
+
+
+
+
+
+
