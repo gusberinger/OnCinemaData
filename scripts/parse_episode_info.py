@@ -5,6 +5,7 @@ import json
 import re
 import pandas as pd
 from functools import reduce
+import pathlib
 
 with open("secrets/youtube_api.txt", "r") as f:
     youtube_key = f.read()
@@ -28,39 +29,13 @@ def epsiode_info(season, episode_number):
     youtube_data = youtube_data_all['items'][0]['statistics']
     
     complete_data = episode | youtube_data
-    print(complete_data)
     return complete_data
-
-
-def movie_info(soup):
-    """Returns all movie data, including reviews for one movie as list with item per review"""
-    title = soup.find("p", class_ = "movie-title").text
-    year = re.match(r"\d+", soup.find(text="Year: ").next).group()
-    omdb = json.loads(requests.get(omdb_url(title, year)).content)
-    omdb.pop('Ratings', None) # make it easier to join data
-
-    reviews_soup = soup.find("div", class_= "row reviews").find_all("div", class_ = "review-info")
-    reviews = [review_info(soup) for soup in reviews_soup]
-    movie_data = [omdb | review for review in reviews]
-    return movie_data
-
-def get_all_movie_info(season, episode_numer):
-    """Returns list of all movie info"""
-    with open(f"pages/{season}-{episode_number}.html", "r") as f:
-        html = f.read()
-    soup = BeautifulSoup(html, "html.parser")
-    movies_soup = soup.find("div", "episode-movies").find_all("div", recursive = False)
-    movie_data = {"season": season, "episode": episode_number}
-    movies = [movie_info(soup) for soup in movies_soup]
-    movies_flattened = reduce(lambda x, y: x + y, movies) # grab all review rows from lists
-    print(movies_flattened)
-
 
 all_episode_info = []
 for season in range(1, 12):
     for episode_number in range(1, 11):
         print(f"Parsing {season}-{episode_number}")
-        get_all_movie_info(season, episode_number)
         all_episode_info.append(epsiode_info(season, episode_number))
-df = pd.DataFrame(all_episode_info)
-df.to_csv("datasets/episode_info.csv", index = False)
+
+episode_df = pd.DataFrame(all_episode_info)
+episode_df.to_csv(str(pathlib.Path(__file__).parent.parent) + "/datasets/episode_info.csv", index = False)
