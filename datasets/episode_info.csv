@@ -1,21 +1,111 @@
 season,episode,youtube_id,airdate,hosts,n_hosts,viewCount,likeCount,dislikeCount,favoriteCount,commentCount
-1,1,qFHLfmoLchI,11/2/2012,Gregg Turkington|Tim Heidecker,2,588507,3097,39,0,404
-1,2,SQZJktp-etk,11/8/2012,Gregg Turkington|Tim Heidecker,2,216501,1673,24,0,226
-1,3,nfOMBioJDJg,11/16/2012,Gregg Turkington|Tim Heidecker,2,223745,1517,27,0,211
-1,4,QYVJLsbciS8,11/21/2012,Gregg Turkington|Tim Heidecker,2,182151,1338,16,0,293
-1,5,WzFILC5bI_c,11/29/2012,Gregg Turkington|Tim Heidecker,2,189497,1663,19,0,226
-1,6,HMKm0CYEXDU,12/6/2012,Gregg Turkington|Tim Heidecker,2,161574,1097,14,0,166
-1,7,Okikb3fpN4w,12/13/2012,Gregg Turkington|Tim Heidecker,2,181896,1291,19,0,214
-1,8,qjqfZhyGSrA,12/21/2012,Gregg Turkington|Tim Heidecker,2,203636,1772,15,0,302
-1,9,vvoqgPay8bM,12/27/2012,Gregg Turkington|Tim Heidecker,2,175620,1459,17,0,267
-1,10,u75FIgboNHU,1/10/2013,Gregg Turkington|Tim Heidecker,2,193278,1681,20,0,245
-2,1,LPw-R-WWdOc,2/7/2013,Gregg Turkington|Tim Heidecker,2,186391,1390,13,0,244
-2,2,1M2yXVn2GGA,2/14/2013,Gregg Turkington|Tim Heidecker,2,200324,2181,35,0,393
-2,3,MMTsSMttjdI,2/21/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,3,177676,1632,27,0,373
-2,4,LjVTxxFNeQY,2/28/2013,Gregg Turkington|Tim Heidecker,2,157201,1226,20,0,253
-2,5,JhcGWg7aV0w,3/7/2013,Gregg Turkington|Tim Heidecker,2,164693,1417,15,0,311
-2,6,fah28oNAhT8,3/14/2013,Gregg Turkington|Tim Heidecker,2,182273,1600,21,0,385
-2,7,XxJ7YQS8sos,3/21/2013,Gregg Turkington|Tim Heidecker,2,172467,1522,7,0,260
-2,8,jFmz7t07i7w,3/28/2013,Ayaka Ohwaki|Gregg Turkington|Jimmy McNichol|Tim Heidecker,4,154264,1138,19,0,253
-2,9,ri0n5EMEApY,4/4/2013,Gregg Turkington|Tim Heidecker,2,173955,1470,26,0,228
-2,10,R_5-N9t26V8,4/11/2013,Gregg Turkington|Tim Heidecker,2,187724,1546,13,0,341
+1,1,qFHLfmoLchI,11/2/2012,Gregg Turkington|Tim Heidecker,2,588599,3098,39,0,404
+1,2,SQZJktp-etk,11/8/2012,Gregg Turkington|Tim Heidecker,2,216524,1673,24,0,226
+1,3,nfOMBioJDJg,11/16/2012,Gregg Turkington|Tim Heidecker,2,223766,1517,27,0,211
+1,4,QYVJLsbciS8,11/21/2012,Gregg Turkington|Tim Heidecker,2,182169,1338,16,0,294
+1,5,WzFILC5bI_c,11/29/2012,Gregg Turkington|Tim Heidecker,2,189515,1663,19,0,226
+1,6,HMKm0CYEXDU,12/6/2012,Gregg Turkington|Tim Heidecker,2,161600,1097,14,0,166
+1,7,Okikb3fpN4w,12/13/2012,Gregg Turkington|Tim Heidecker,2,181925,1291,19,0,214
+1,8,qjqfZhyGSrA,12/21/2012,Gregg Turkington|Tim Heidecker,2,203665,1772,15,0,302
+1,9,vvoqgPay8bM,12/27/2012,Gregg Turkington|Tim Heidecker,2,175645,1459,17,0,267
+1,10,u75FIgboNHU,1/10/2013,Gregg Turkington|Tim Heidecker,2,193305,1681,20,0,245
+2,1,LPw-R-WWdOc,2/7/2013,Gregg Turkington|Tim Heidecker,2,186406,1390,13,0,244
+2,2,1M2yXVn2GGA,2/14/2013,Gregg Turkington|Tim Heidecker,2,200342,2181,35,0,393
+2,3,MMTsSMttjdI,2/21/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,3,177690,1632,27,0,373
+2,4,LjVTxxFNeQY,2/28/2013,Gregg Turkington|Tim Heidecker,2,157214,1226,20,0,253
+2,5,JhcGWg7aV0w,3/7/2013,Gregg Turkington|Tim Heidecker,2,164711,1417,15,0,311
+2,6,fah28oNAhT8,3/14/2013,Gregg Turkington|Tim Heidecker,2,182299,1600,21,0,385
+2,7,XxJ7YQS8sos,3/21/2013,Gregg Turkington|Tim Heidecker,2,172485,1522,7,0,260
+2,8,jFmz7t07i7w,3/28/2013,Ayaka Ohwaki|Gregg Turkington|Jimmy McNichol|Tim Heidecker,4,154285,1138,19,0,253
+2,9,ri0n5EMEApY,4/4/2013,Gregg Turkington|Tim Heidecker,2,173974,1470,26,0,228
+2,10,R_5-N9t26V8,4/11/2013,Gregg Turkington|Tim Heidecker,2,187748,1546,13,0,341
+3,1,Sx19DKoUdUg,7/3/2013,Gregg Turkington|Tim Heidecker,2,239845,2055,46,0,436
+3,2,-3fzhadeZgg,7/10/2013,Gregg Turkington|Tim Heidecker,2,199551,1699,118,0,443
+3,3,_1g-Q7Nim6A,7/17/2013,Gregg Turkington|Tim Heidecker,2,179670,1688,41,0,447
+3,4,IcP5kn2kZcQ,7/24/2013,Gregg Turkington|Tim Heidecker|Joe Estevez,3,191171,1586,37,0,419
+3,5,wE7iRtuJYK8,7/31/2013,Gregg Turkington|Tim Heidecker,2,169172,1465,34,0,412
+3,6,LIlXGcRH2Rs,8/7/2013,Gregg Turkington|Tim Heidecker,2,143170,1303,47,0,205
+3,7,ScpA45z6BKQ,8/14/2013,Gregg Turkington|Tim Heidecker,2,188433,2014,57,0,489
+3,8,Yr_q3Gxvex0,8/21/2013,Ayaka Ohwaki|John Aprea|Tim Heidecker,3,165644,1261,55,0,372
+3,9,sPIniCEtY9U,8/28/2013,Ayaka Ohwaki|Gregg Turkington|Tim Heidecker,3,203590,2394,42,0,593
+3,10,eYjQjvirrYc,9/4/2013,Gregg Turkington|Tim Heidecker,2,185158,1562,37,0,306
+4,1,FcY1PUpHXso,1/8/2014,Gregg Turkington|Tim Heidecker,2,243710,1964,48,0,278
+4,2,K_0ljrFYE5E,1/15/2014,Gregg Turkington|Tim Heidecker,2,197867,2295,38,0,357
+4,3,vUsRviInqn4,1/22/2014,Gregg Turkington|Luther Sanchez|Tim Heidecker,3,175667,1577,38,0,300
+4,4,fSazKxKzn2E,1/29/2014,Gregg Turkington|Luther Sanchez|Tim Heidecker,3,235639,2270,41,0,352
+4,5,g8OlSE96I1s,2/5/2014,Gregg Turkington|Jimmy McNichol|Tim Heidecker|Joe Estevez,4,306861,2313,81,0,371
+4,6,zL2wK-HyeJQ,2/12/2014,Gregg Turkington|Larry Turman,2,194298,1966,199,0,411
+4,7,obTi-asfsK4,2/19/2014,Gregg Turkington|Tim Heidecker,2,195926,1643,37,0,338
+4,8,GRUe-F0g2fc,2/26/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,3,190304,1791,16,0,366
+4,9,pZOBnKZ-X9U,3/5/2014,Gregg Turkington|Tim Heidecker,2,159878,1530,22,0,300
+4,10,1mz3aHHFxpc,3/12/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,3,160800,1736,20,0,379
+5,1,9rKNLhPo9bg,7/2/2014,Gregg Turkington|Tim Heidecker,2,213420,1705,35,0,308
+5,2,VrL8tyJLeJk,7/9/2014,Gregg Turkington|Tim Heidecker,2,192010,1979,44,0,342
+5,3,N0d3hMwjsxg,7/16/2014,Gregg Turkington|Tim Heidecker,2,162838,1506,27,0,347
+5,4,BQx_2bQniZI,7/23/2014,Gregg Turkington|Tim Heidecker|Joe Estevez,3,177029,1606,31,0,294
+5,5,k_MbreQjXJ4,7/30/2014,Gregg Turkington|Tim Heidecker,2,173770,1609,45,0,326
+5,6,sU5PVNZ1GSo,8/6/2014,Gregg Turkington|Tim Heidecker,2,180340,2541,60,0,506
+5,7,Q6_ckZw65dI,8/13/2014,Gregg Turkington|Tim Heidecker,2,169952,1492,31,0,300
+5,8,P93K-73MshM,8/20/2014,Gregg Turkington|Tim Heidecker,2,175766,1585,32,0,310
+5,9,hGzuqylxR8w,8/27/2014,"Ayaka Ohwaki|Gregg Turkington|Tim Heidecker|Tom Cruise Heidecker, Jr",4,137183,1246,21,0,246
+5,10,AAVDo3uP07E,9/3/2014,Gregg Turkington|Tim Heidecker,2,155947,1695,21,0,378
+6,1,l4TPZad5MVI,2/4/2015,Gregg Turkington|Mark Proksch,2,210130,2661,144,0,575
+6,2,nbyamRX_pZo,2/11/2015,Gregg Turkington|Mark Proksch|Tim Heidecker,3,286495,3102,65,0,488
+6,3,6KhwiJNCUmc,2/18/2015,Gregg Turkington|Tim Heidecker,2,182370,1671,27,0,326
+6,4,ZGy4YwfTPBY,2/25/2015,Gregg Turkington|Tim Heidecker,2,149092,1430,15,0,223
+6,5,kFBLNgsVhdo,3/4/2015,Gregg Turkington|Tim Heidecker|Joe Estevez,3,209025,1776,37,0,409
+6,6,G07P3ZQwkSU,3/11/2015,Gregg Turkington|Tim Heidecker,2,121719,983,15,0,185
+6,7,Ikb2QabxcDA,3/18/2015,"Ayaka Ohwaki|Gregg Turkington|Tim Heidecker|Tom Cruise Heidecker, Jr",4,117457,1154,34,0,276
+6,8,mYVQo_jH3Po,3/25/2015,Gregg Turkington|Tim Heidecker,2,134849,1533,17,0,259
+6,9,486OCi4uINY,4/1/2015,Gregg Turkington|Tim Heidecker,2,165813,1708,30,0,353
+6,10,JDUbtFKcf2M,4/8/2015,Ayaka Ohwaki|Tim Heidecker,2,130605,1212,43,0,382
+7,1,fgoanR8BAMA,9/9/2015,Gregg Turkington|Tim Heidecker,2,273959,3760,74,0,578
+7,2,JszcIgBV_MI,9/16/2015,Gregg Turkington|Tim Heidecker,2,178929,1533,35,0,301
+7,3,Hvu9d4OAsXg,9/23/2015,Gregg Turkington|Tim Heidecker,2,165136,1874,33,0,454
+7,4,uim2th2Hm78,9/30/2015,Gregg Turkington|Luther Sanchez|Tim Heidecker|Joe Estevez,4,201996,2022,47,0,430
+7,5,gaQbGCg7_Mw,10/7/2015,Gregg Turkington|Tim Heidecker,2,208459,1962,57,0,441
+7,6,EbrnM36GspY,10/14/2015,Gregg Turkington|Tim Heidecker,2,190166,2064,51,0,531
+7,7,cuORvss1ovo,10/21/2015,Gregg Turkington|Tim Heidecker,2,177859,2059,62,0,463
+7,8,7-2jpmg-fSw,10/28/2015,Axiom Serradimigni|Tim Heidecker,2,97987,963,814,0,450
+7,9,rYhc3na7j0k,11/5/2015,Gregg Turkington,1,147343,2042,58,0,531
+7,10,GFpbLvUwF4g,11/12/2015,Axiom Serradimigni|Gregg Turkington|Luther Sanchez|Tim Heidecker,4,188238,2380,34,0,823
+8,1,RpMjjx-m-BM,7/27/2016,Gregg Turkington|Tim Heidecker,2,305406,3146,98,0,600
+8,2,i2YyYQfZetk,8/3/2016,Gregg Turkington|Luther Sanchez|Tim Heidecker,3,272785,2511,57,0,504
+8,3,5FQu_8qQBN4,8/10/2016,Gregg Turkington|Tim Heidecker,2,449660,4810,128,0,872
+8,4,UqqYpUmtgLg,8/17/2016,Gregg Turkington|Tim Heidecker,2,282019,2849,57,0,601
+8,5,NMl3xpNbTjA,8/24/2016,Axiom Serradimigni|Gregg Turkington|Mark Proksch|Tim Heidecker,4,236170,2129,54,0,512
+8,6,IQtNboS3Eh8,8/31/2016,Gregg Turkington|Tim Heidecker,2,187500,2190,41,0,576
+8,7,Qb3kMeOxCAQ,9/7/2016,Gregg Turkington|Mark Proksch,2,165551,1897,33,0,652
+8,8,7r6qgKD-m8U,9/14/2016,Axiom Serradimigni|Ayaka Ohwaki|Gregg Turkington|John Aprea|Mark Proksch|Mister Ohwaki|Tim Heidecker|Joe Estevez,8,180734,2413,45,0,775
+8,9,m7XQZnBDJKY,9/21/2016,Gregg Turkington|Tim Heidecker,2,171267,1964,36,0,547
+8,10,gZNF7-v-qGA,9/28/2016,Gregg Turkington|Tim Heidecker,2,175254,2155,40,0,527
+9,1,OU0TaprKPRc,3/6/2017,Gregg Turkington|Mark Proksch|Tim Heidecker,3,182597,2010,71,0,318
+9,2,anEU1fPn8JI,3/13/2017,Gregg Turkington|John Lenard|Mark Proksch|Tim Heidecker,4,135349,1392,71,0,264
+9,3,wRGvQosfuos,3/20/2017,Gregg Turkington|Mark Proksch|Tim Heidecker,3,143123,1433,58,0,305
+9,4,37fPcXtoIUk,3/27/2017,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Mark Proksch|Tim Heidecker,5,128527,1411,43,0,288
+9,5,KiEfjXD-KwE,4/3/2017,Gregg Turkington|Juliana Serradimigni|Manuel Giusti|Mark Proksch|Tim Heidecker,5,127293,1399,30,0,261
+9,6,1xkShGA6IQs,4/10/2017,Gregg Turkington|Mark Proksch|Luther Sanchez|Tim Heidecker,4,142504,1483,54,0,344
+9,7,QFdzuCNLEfs,4/17/2017,Gregg Turkington|Mark Proksch,2,141456,1876,73,0,447
+9,8,XWzt9NRe8Ac,4/24/2017,Gregg Turkington|Mark Proksch|Tim Heidecker|Joe Estevez,4,114403,1425,38,0,293
+9,9,2j33hkDxYTs,5/1/2017,Gregg Turkington|Tim Heidecker,2,131758,1395,52,0,252
+9,10,LCvM2IXg0lM,5/8/2017,Gregg Turkington|Tim Heidecker,2,140869,1757,76,0,442
+10,1,saGMEd_02t8,3/22/2018,Gregg Turkington|Tim Heidecker,2,339983,5447,205,0,1083
+10,2,tnPZtftH1F8,3/28/2018,Gregg Turkington|Tim Heidecker,2,211719,2692,116,0,645
+10,3,nY5XVaneJhw,4/6/2018,Gregg Turkington|Mark Proksch|Max Eucompco|Tim Heidecker,4,231166,2718,95,0,594
+10,4,H9HXh5ZYkn4,4/12/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,3,166101,2381,78,0,559
+10,5,fU-bU8MIeUs,4/19/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,3,159732,2123,100,0,546
+10,6,OGgGA3XCFLY,4/26/2018,Gregg Turkington|Max Eucompco|Tim Heidecker,3,141599,1794,61,0,448
+10,7,83mWOlEqvk4,5/3/2018,Gregg Turkington|Tim Heidecker|Joe Estevez,3,437482,5799,274,0,870
+10,8,nvMA_jKlQ_o,5/10/2018,Gregg Turkington|Tim Heidecker,2,173802,2288,53,0,549
+10,9,XYReLQBKo50,5/17/2018,Gregg Turkington|Mark Proksch|Tim Heidecker,3,155642,2394,127,0,858
+10,10,m1a1sLe1W3w,5/25/2018,Gregg Turkington|Tim Heidecker,2,192971,3706,98,0,937
+11,1,TkftGABKsnU,9/25/2019,Gregg Turkington|Tim Heidecker,2,180906,4869,69,0,1046
+11,2,G5vfOMSA-H8,10/2/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,3,236548,5588,205,0,1076
+11,3,qmkZDFggYZE,10/9/2019,Gregg Turkington|Tim Heidecker|Joe Estevez|Josh Lorton,4,152160,3375,58,0,865
+11,4,RAMs41nvta8,10/16/2019,Gregg Turkington|Tim Heidecker|Michael Matthews|Josh Lorton,4,111107,2481,55,0,636
+11,5,zJXuik5QQ7A,10/23/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,3,111548,2357,35,0,755
+11,6,ciX-tauchQs,10/30/2019,Gregg Turkington|Mark Proksch|Tim Heidecker,3,115136,2287,56,0,740
+11,7,tgPsYWyZCgc,11/6/2019,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Tim Heidecker|Michael Matthews,5,112413,2524,45,0,867
+11,8,HE0pBci6wVY,11/13/2019,Gregg Turkington|Mark Proksch|Tim Heidecker|Toni Newman,4,110290,2274,55,0,699
+11,9,-s1y1WFrawU,11/20/2019,Axiom Serradimigni|Gregg Turkington|Manuel Giusti|Tim Heidecker|Joe Estevez|Toni Newman,6,110623,2256,40,0,702
+11,10,EInX_lIWpEU,11/27/2019,Gregg Turkington|Tim Heidecker|Toni Newman,3,110724,2430,46,0,896
