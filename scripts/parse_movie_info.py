@@ -6,7 +6,7 @@ import requests
 from functools import reduce
 import pandas as pd
 
-with open("secrets/omdb_api.txt", "r") as f:
+with open(str(pathlib.Path(__file__).parent.parent) + "/secrets/omdb_api.txt", "r") as f:
     omdb_key = f.read()
 
 def omdb_url(title, year):
