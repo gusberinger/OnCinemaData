@@ -7,14 +7,16 @@ import pandas as pd
 from functools import reduce
 import pathlib
 
-with open("secrets/youtube_api.txt", "r") as f:
+with open(str(pathlib.Path(__file__).parent.parent) + "/secrets/youtube_api.txt", "r") as f:
     youtube_key = f.read()
 
 
 def epsiode_info(season, episode_number):
     """Returns as a list of dictionaries all relevent information considering movies
     and reviews of those movies in the episode."""
-    with open(f"pages/{season}-{episode_number}.html", "r") as f:
+    root_path = pathlib.Path(__file__).parent.parent
+    path = str(root_path) + f"/pages/{season}-{episode_number}.html"
+    with open(path, "r") as f:
         html = f.read()
 
     episode = {"season": season, "episode": episode_number}
