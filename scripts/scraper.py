@@ -25,13 +25,14 @@ def epsiode_info(season, episode_number):
     episode["airdate"] = soup.find("h5", text = "Original Air Date").parent.p.text
     hosts = soup.find("h5", text="Hosts / Guests").parent.find_all("div")
     episode["hosts"] = "|".join([item.text for item in hosts])
+    episode["n_hosts"] = len(hosts)
     youtube_api_url = f"https://www.googleapis.com/youtube/v3/videos?part=statistics&id={episode['youtube_id']}&key={youtube_key}"
     youtube_data_all = json.loads(requests.get(youtube_api_url).content)
     youtube_data = youtube_data_all['items'][0]['statistics']
     movies_soup = soup.find("div", "episode-movies").find_all("div", recursive = False)
     movies = [movie_info(soup) for soup in movies_soup]
     movies_flattened = reduce(lambda x, y: x + y, movies) # grab all review rows from lists
-    complete_data = [episode | movie for movie in movies_flattened]
+    complete_data = [episode | youtube_data | movie for movie in movies_flattened]
     return complete_data
 
 def omdb_url(title, year):
