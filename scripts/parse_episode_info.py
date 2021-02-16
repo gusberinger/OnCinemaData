@@ -57,7 +57,7 @@ def get_all_movie_info(season, episode_numer):
 
 
 all_episode_info = []
-for season in range(1, 3):
+for season in range(1, 12):
     for episode_number in range(1, 11):
         print(f"Parsing {season}-{episode_number}")
         get_all_movie_info(season, episode_number)
