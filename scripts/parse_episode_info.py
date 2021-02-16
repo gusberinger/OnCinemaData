@@ -1,10 +1,7 @@
-import glob
 from bs4 import BeautifulSoup
 import requests
 import json
-import re
 import pandas as pd
-from functools import reduce
 import pathlib
 
 with open(str(pathlib.Path(__file__).parent.parent) + "/secrets/youtube_api.txt", "r") as f:
