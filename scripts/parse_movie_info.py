@@ -12,6 +12,8 @@ with open("secrets/omdb_api.txt", "r") as f:
 def omdb_url(title, year):
     """From the title and year get the url for omdb"""
     # adjust data to match omdb
+    if title == "CafÃ© Society":
+        title = "Café Society"
     if title == "Les Miserables":
         title = "Les Misérables"
     if title == "Escape from Planet Earth":
@@ -73,8 +75,8 @@ def get_all_movie_info(season, episode_number):
     return movies_complete
 
 reviews = []
-for season in range(1, 2):
-        for episode_number in range(1, 5):
+for season in range(1, 12):
+        for episode_number in range(1, 11):
             print(f"Parsing movie reviews for {season}-{episode_number}")
             reviews += get_all_movie_info(season, episode_number)
 reviews_df = pd.DataFrame(reviews)
