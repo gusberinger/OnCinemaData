@@ -43,7 +43,7 @@ def get_all_movie_info(season, episode_number):
     return movies_complete
 
 reviews = []
-for season in range(1, 2):
+for season in range(1, 12):
         for episode_number in range(1, 11):
             print(f"Parsing movie reviews for {season}-{episode_number}")
             reviews += get_all_movie_info(season, episode_number)
