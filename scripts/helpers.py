@@ -4,8 +4,11 @@ import pathlib
 
 PROJECT_ROOT = str(pathlib.Path(__file__).parent.parent)
 
-with open(str(pathlib.Path(__file__).parent.parent) + "/secrets/omdb_api.txt", "r") as f:
+with open(PROJECT_ROOT + "/secrets/omdb_api.txt", "r") as f:
     omdb_key = f.read()
+
+with open(PROJECT_ROOT + "/secrets/youtube_api.txt", "r") as f:
+    youtube_key = f.read()
 
 def omdb_url(title, year):
     """From the title and year get the url for omdb"""

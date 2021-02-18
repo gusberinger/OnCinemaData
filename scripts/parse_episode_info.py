@@ -3,10 +3,7 @@ import requests
 import json
 import pandas as pd
 import pathlib
-
-with open(str(pathlib.Path(__file__).parent.parent) + "/secrets/youtube_api.txt", "r") as f:
-    youtube_key = f.read()
-
+import helpers
 
 def epsiode_info(season, episode_number):
     """Returns as a list of dictionaries all relevent information considering movies
@@ -23,7 +20,7 @@ def epsiode_info(season, episode_number):
     hosts = soup.find("h5", text="Hosts / Guests").parent.find_all("div")
     episode["hosts"] = "|".join([item.text for item in hosts])
     episode["n_hosts"] = len(hosts)
-    youtube_api_url = f"https://www.googleapis.com/youtube/v3/videos?part=statistics&id={episode['youtube_id']}&key={youtube_key}"
+    youtube_api_url = f"https://www.googleapis.com/youtube/v3/videos?part=statistics&id={episode['youtube_id']}&key={helpers.youtube_key}"
     youtube_data_all = json.loads(requests.get(youtube_api_url).content)
     youtube_data = youtube_data_all['items'][0]['statistics']
     
